@@ -23,11 +23,12 @@ public class NPC : MonoBehaviour {
 	PolygonCollider2D poly;
 	int startIdx,finishIdx;
 	float lastX,lastY;
+	float speed;
 	
 	// Use this for initialization
 	void Start () {
 
-
+		speed = Random.Range (0.3f, 0.7f);
 
 		anim = GetComponent<Animator> ();
 		state = NPCState.IDLE;
@@ -152,7 +153,7 @@ public class NPC : MonoBehaviour {
 
 		while (Vector2.Distance(transform.position,tempDestination)>0.1f) {
 
-			transform.position = Vector2.MoveTowards(transform.position , tempDestination, Time.deltaTime/2);
+			transform.position = Vector2.MoveTowards(transform.position , tempDestination, Time.deltaTime*speed);
 			transform.position = new Vector3 (transform.position.x, transform.position.y, transform.position.y);
 			yield return null;
 		}
@@ -214,7 +215,7 @@ public class NPC : MonoBehaviour {
 
 //				print (poly.transform.position);
 
-				transform.position = Vector2.MoveTowards(transform.position , newPos, Time.deltaTime/2);
+				transform.position = Vector2.MoveTowards(transform.position , newPos, Time.deltaTime*speed);
 				transform.position = new Vector3 (transform.position.x, transform.position.y, transform.position.y);
 				yield return null;
 
@@ -232,7 +233,7 @@ public class NPC : MonoBehaviour {
 			//				print (poly.transform.position);
 			
 			transform.position = Vector2.MoveTowards(transform.position , new Vector2(poly.transform.position.x,poly.transform.position.y)
-			                                         + poly.points[finishIdx]+poly.offset, Time.deltaTime/2);
+			                                         + poly.points[finishIdx]+poly.offset, Time.deltaTime*speed);
 			transform.position = new Vector3 (transform.position.x, transform.position.y, transform.position.y);
 			yield return null;
 			
