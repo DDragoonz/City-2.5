@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 public class NPC : MonoBehaviour {
 
+
 	public Vector2 destination;
 	public Vector2 tempDestination;
 
@@ -12,6 +13,7 @@ public class NPC : MonoBehaviour {
 	List<Vector2> allDestination;
 
 	Animator anim;
+
 
 	RaycastHit2D[] hits;
 	RaycastHit2D curHit;
@@ -24,6 +26,9 @@ public class NPC : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
+
+
+
 		anim = GetComponent<Animator> ();
 		state = NPCState.IDLE;
 		allDestination = new List<Vector2> ();
@@ -34,7 +39,14 @@ public class NPC : MonoBehaviour {
 
 	}
 
-
+	void switchAnimationFacing(Vector2 target){
+		if (anim) {
+			if(transform.position.x < target.x && transform.position.y <= target.y )anim.SetInteger("facing",0);
+			if(transform.position.x < target.x && transform.position.y >= target.y )anim.SetInteger("facing",1);
+			if(transform.position.x >= target.x && transform.position.y > target.y )anim.SetInteger("facing",2);
+			if(transform.position.x >= target.x && transform.position.y < target.y )anim.SetInteger("facing",3);
+		}
+	}
 
 	
 	// Update is called once per frame
@@ -96,6 +108,7 @@ public class NPC : MonoBehaviour {
 			switch(state){
 
 			case NPCState.IDLE:
+				if(anim)anim.SetBool("moving",false);
 				yield return StartCoroutine(idle());
 				break;
 
@@ -104,6 +117,7 @@ public class NPC : MonoBehaviour {
 				break;
 
 			case NPCState.MOVING:
+				if(anim)anim.SetBool("moving",true);
 				yield return StartCoroutine(moving());
 				break;
 
@@ -112,6 +126,7 @@ public class NPC : MonoBehaviour {
 				break;
 
 			case NPCState.ENCIRCLE:
+				if(anim)anim.SetBool("moving",true);
 				yield return StartCoroutine(encircle());
 				break;
 			}
@@ -132,6 +147,9 @@ public class NPC : MonoBehaviour {
 	IEnumerator moving(){
 
 		print ("time to move!");
+
+		switchAnimationFacing (tempDestination);
+
 		while (Vector2.Distance(transform.position,tempDestination)>0.1f) {
 
 			transform.position = Vector2.MoveTowards(transform.position , tempDestination, Time.deltaTime/2);
@@ -190,6 +208,8 @@ public class NPC : MonoBehaviour {
 			Vector2 newPos = new Vector2(poly.transform.position.x,poly.transform.position.y);
 			newPos+=poly.points[i]+poly.offset;
 
+			switchAnimationFacing(newPos);
+
 			while(Vector2.Distance(transform.position,newPos )>0.05f){
 
 //				print (poly.transform.position);
@@ -204,7 +224,7 @@ public class NPC : MonoBehaviour {
 		}
 
 
-
+		switchAnimationFacing(new Vector2(poly.transform.position.x,poly.transform.position.y) + poly.points[finishIdx]+poly.offset);
 		
 		while(Vector2.Distance(transform.position,
 		                       new Vector2(poly.transform.position.x,poly.transform.position.y) + poly.points[finishIdx]+poly.offset )>0.05f){
