@@ -223,7 +223,7 @@ MonoBehaviour:
   trafficPointToUnlock: 0
   facilityIdToUnlock:
   - rumah1
-  keterangan: Apotik tempat dimana obat dijual
+  keterangan: rumah yang lebih besar dan lebih bagus di huni
   data:
     posX: 0
     posY: 0
