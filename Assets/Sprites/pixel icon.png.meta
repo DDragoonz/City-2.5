@@ -23,7 +23,7 @@ TextureImporter:
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -77,10 +77,15 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      - - {x: 6, y: 11}
+        - {x: -15, y: 3}
+        - {x: -15, y: -9}
+        - {x: -8, y: -14}
+        - {x: -4, y: -14}
+        - {x: 14, y: -7}
+        - {x: 16, y: -1}
+        - {x: 16, y: 6}
+        - {x: 9, y: 11}
     - name: pixel icon_1
       rect:
         serializedVersion: 2
@@ -92,10 +97,14 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      - - {x: -8, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -14}
+        - {x: -11, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 11}
+        - {x: 12, y: 16}
     - name: pixel icon_2
       rect:
         serializedVersion: 2
@@ -107,10 +116,14 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      - - {x: -7, y: 14}
+        - {x: -14, y: 7}
+        - {x: -14, y: -10}
+        - {x: -4, y: -14}
+        - {x: 10, y: -14}
+        - {x: 14, y: -6}
+        - {x: 14, y: 6}
+        - {x: 6, y: 14}
     - name: pixel icon_3
       rect:
         serializedVersion: 2
@@ -122,10 +135,14 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      - - {x: 9, y: 15}
+        - {x: -11, y: 15}
+        - {x: -14, y: 14}
+        - {x: -14, y: -15}
+        - {x: 8, y: -15}
+        - {x: 12, y: -14}
+        - {x: 14, y: -4}
+        - {x: 14, y: 9}
     - name: pixel icon_4
       rect:
         serializedVersion: 2
@@ -137,10 +154,36 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      - - {x: 13, y: 14}
+        - {x: 9, y: 14}
+        - {x: -11, y: 0}
+        - {x: -15, y: -3}
+        - {x: -15, y: -11}
+        - {x: -12, y: -16}
+        - {x: 0, y: -16}
+        - {x: 11, y: -13}
+        - {x: 15, y: -9}
+        - {x: 16, y: -2}
+        - {x: 15, y: 13}
+      - - {x: -10, y: 14}
+        - {x: -13, y: 12}
+        - {x: -13, y: 4}
+        - {x: -10, y: 3}
+        - {x: -7, y: 4}
+        - {x: -7, y: 12}
+        - {x: -8, y: 14}
+      - - {x: -6, y: 5}
+        - {x: -4, y: 3}
+        - {x: -1, y: 4}
+        - {x: -1, y: 14}
+        - {x: -3, y: 16}
+        - {x: -6, y: 15}
+      - - {x: 1, y: 6}
+        - {x: 3, y: 4}
+        - {x: 6, y: 5}
+        - {x: 6, y: 14}
+        - {x: 4, y: 16}
+        - {x: 1, y: 15}
     - name: pixel icon_5
       rect:
         serializedVersion: 2
@@ -152,10 +195,14 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      - - {x: 5, y: 16}
+        - {x: -16, y: -5}
+        - {x: -16, y: -10}
+        - {x: -10, y: -16}
+        - {x: -5, y: -16}
+        - {x: 16, y: 5}
+        - {x: 16, y: 10}
+        - {x: 10, y: 16}
     - name: pixel icon_6
       rect:
         serializedVersion: 2
@@ -167,10 +214,14 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      - - {x: 11, y: 16}
+        - {x: -9, y: 16}
+        - {x: -16, y: 14}
+        - {x: -16, y: -5}
+        - {x: -5, y: -14}
+        - {x: 4, y: -14}
+        - {x: 15, y: -4}
+        - {x: 15, y: 13}
     - name: pixel icon_7
       rect:
         serializedVersion: 2
@@ -182,10 +233,14 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      - - {x: -8, y: 10}
+        - {x: -14, y: 6}
+        - {x: -14, y: -6}
+        - {x: -12, y: -9}
+        - {x: 9, y: -9}
+        - {x: 12, y: -7}
+        - {x: 12, y: 7}
+        - {x: 11, y: 10}
     - name: pixel icon_8
       rect:
         serializedVersion: 2
@@ -197,10 +252,14 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      - - {x: -12, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -12}
+        - {x: -12, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 12}
+        - {x: 12, y: 16}
     - name: pixel icon_9
       rect:
         serializedVersion: 2
@@ -212,10 +271,14 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      - - {x: -12, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -12}
+        - {x: -12, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 12}
+        - {x: 12, y: 16}
     - name: pixel icon_10
       rect:
         serializedVersion: 2
@@ -227,10 +290,14 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      - - {x: -12, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -12}
+        - {x: -12, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 12}
+        - {x: 12, y: 16}
     - name: pixel icon_11
       rect:
         serializedVersion: 2
@@ -242,10 +309,14 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      - - {x: -12, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -12}
+        - {x: -12, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 12}
+        - {x: 12, y: 16}
     - name: pixel icon_12
       rect:
         serializedVersion: 2
@@ -257,10 +328,14 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      - - {x: -12, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -12}
+        - {x: -12, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 12}
+        - {x: 12, y: 16}
     - name: pixel icon_13
       rect:
         serializedVersion: 2
@@ -272,10 +347,14 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      - - {x: -12, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -12}
+        - {x: -12, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 12}
+        - {x: 12, y: 16}
     - name: pixel icon_14
       rect:
         serializedVersion: 2
@@ -287,10 +366,14 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: 16}
+      - - {x: -12, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -12}
+        - {x: -12, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 12}
+        - {x: 12, y: 16}
     - name: pixel icon_15
       rect:
         serializedVersion: 2
@@ -302,9 +385,12 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
+      - - {x: -14, y: 16}
+        - {x: -16, y: 15}
+        - {x: -16, y: -7}
+        - {x: -12, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -10}
         - {x: 16, y: 16}
     outline: []
   spritePackingTag: 

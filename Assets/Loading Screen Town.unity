@@ -108,10 +108,9 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 18784426}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.48, y: 0.20000005, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 658530397}
+  m_LocalPosition: {x: 5.46, y: 0.20000005, z: 0}
+  m_LocalScale: {x: 1.7749912, y: 1, z: 1}
+  m_Children: []
   m_Father: {fileID: 536616113}
   m_RootOrder: 0
 --- !u!212 &18784428
@@ -156,6 +155,7 @@ GameObject:
   - 92: {fileID: 323702358}
   - 124: {fileID: 323702357}
   - 81: {fileID: 323702356}
+  - 114: {fileID: 323702361}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -230,6 +230,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &323702361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 323702355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563f336f00469604faaa1a5a11e17565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &536616111
 GameObject:
   m_ObjectHideFlags: 0
@@ -288,6 +299,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 18784427}
+  - {fileID: 658530397}
   m_Father: {fileID: 0}
   m_RootOrder: 2
 --- !u!95 &536616114
@@ -331,11 +343,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 658530396}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.12, y: 0.63, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 2.31, y: 0.83000016, z: 0}
+  m_LocalScale: {x: 1.2868686, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 18784427}
-  m_RootOrder: 0
+  m_Father: {fileID: 536616113}
+  m_RootOrder: 1
 --- !u!102 &658530398
 TextMesh:
   serializedVersion: 3
@@ -344,13 +356,13 @@ TextMesh:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 658530396}
   m_Text: "Menjilat gagang pintu \nadalah ilegal di planet lain"
-  m_OffsetZ: -1
-  m_CharacterSize: 0.1
+  m_OffsetZ: -5
+  m_CharacterSize: 0.21
   m_LineSpacing: 1
   m_Anchor: 0
   m_Alignment: 0
   m_TabSize: 4
-  m_FontSize: 53
+  m_FontSize: 22
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 0}

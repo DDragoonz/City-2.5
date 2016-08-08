@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f110ed10fe8d1534eb2f7d10debdde6f
-timeCreated: 1470545756
+timeCreated: 1470662751
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -299,14 +299,15 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.12}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -0.5, y: 61.760002}
-        - {x: -18.5, y: 53.760002}
-        - {x: -18.5, y: 7.76}
-        - {x: -9.5, y: -3.2399998}
-        - {x: 6.5, y: -3.2399998}
-        - {x: 20.5, y: -0.23999977}
-        - {x: 20.5, y: 60.760002}
-        - {x: 17.5, y: 61.760002}
+      - - {x: -2.5, y: 61.760002}
+        - {x: -13.5, y: 56.760002}
+        - {x: -18.5, y: 43.760002}
+        - {x: -18.5, y: -3.2399998}
+        - {x: 1.5, y: -3.2399998}
+        - {x: 18.5, y: -0.23999977}
+        - {x: 20.5, y: 1.7600002}
+        - {x: 20.5, y: 53.760002}
+        - {x: 11.5, y: 61.760002}
     outline: []
   spritePackingTag: 
   userData: 
