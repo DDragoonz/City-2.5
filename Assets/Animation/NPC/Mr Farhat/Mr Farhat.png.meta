@@ -1,0 +1,314 @@
+fileFormatVersion: 2
+guid: f110ed10fe8d1534eb2f7d10debdde6f
+timeCreated: 1470545756
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Mr Farhat_0
+    21300002: Mr Farhat_1
+    21300004: Mr Farhat_2
+    21300006: Mr Farhat_3
+    21300008: Mr Farhat_4
+    21300010: Mr Farhat_5
+    21300012: Mr Farhat_6
+    21300014: Mr Farhat_7
+    21300016: Mr Farhat_8
+    21300018: Mr Farhat_9
+    21300020: Mr Farhat_10
+    21300022: Mr Farhat_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 256
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Mr Farhat_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 154
+        width: 41
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 63.759995}
+        - {x: -18.5, y: 57.759995}
+        - {x: -18.5, y: 21.759995}
+        - {x: -12.5, y: -1.2400055}
+        - {x: -6.5, y: -5.2400055}
+        - {x: 3.5, y: -5.2400055}
+        - {x: 16.5, y: 0.7599945}
+        - {x: 18.5, y: 32.759995}
+        - {x: 18.5, y: 55.759995}
+        - {x: 10.5, y: 63.759995}
+    - name: Mr Farhat_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 154
+        width: 41
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 63.759995}
+        - {x: -18.5, y: 55.759995}
+        - {x: -18.5, y: 38.759995}
+        - {x: -14.5, y: 17.759995}
+        - {x: -9.5, y: -0.2400055}
+        - {x: -3.5, y: -3.2400055}
+        - {x: 12.5, y: -3.2400055}
+        - {x: 18.5, y: -1.2400055}
+        - {x: 18.5, y: 61.759995}
+        - {x: 9.5, y: 63.759995}
+    - name: Mr Farhat_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 154
+        width: 41
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 63.759995}
+        - {x: -8.5, y: 63.759995}
+        - {x: -18.5, y: 57.759995}
+        - {x: -18.5, y: 15.7599945}
+        - {x: -14.5, y: -3.2400055}
+        - {x: 5.5, y: -3.2400055}
+        - {x: 14.5, y: 1.7599945}
+        - {x: 18.5, y: 28.759995}
+        - {x: 18.5, y: 58.759995}
+    - name: Mr Farhat_3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 154
+        width: 41
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 63.759995}
+        - {x: -2.5, y: 63.759995}
+        - {x: -18.5, y: 55.759995}
+        - {x: -18.5, y: 28.759995}
+        - {x: -15.5, y: -3.2400055}
+        - {x: -8.5, y: -5.2400055}
+        - {x: 4.5, y: -5.2400055}
+        - {x: 14.5, y: -2.2400055}
+        - {x: 18.5, y: 20.759995}
+        - {x: 18.5, y: 50.759995}
+        - {x: 16.5, y: 57.759995}
+    - name: Mr Farhat_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 77
+        width: 41
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 61.760002}
+        - {x: -14.5, y: 58.760002}
+        - {x: -14.5, y: -1.2399979}
+        - {x: -11.5, y: -3.2399979}
+        - {x: 18.5, y: -3.2399979}
+        - {x: 20.5, y: 0.76000214}
+        - {x: 20.5, y: 54.760002}
+        - {x: 7.5, y: 61.760002}
+    - name: Mr Farhat_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 77
+        width: 41
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 61.760002}
+        - {x: -13.5, y: 56.760002}
+        - {x: -14.5, y: 52.760002}
+        - {x: -14.5, y: 28.760002}
+        - {x: -5.5, y: -5.239998}
+        - {x: 7.5, y: -5.239998}
+        - {x: 20.5, y: 2.7600021}
+        - {x: 20.5, y: 57.760002}
+        - {x: 10.5, y: 61.760002}
+    - name: Mr Farhat_6
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 77
+        width: 41
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 61.760002}
+        - {x: -18.5, y: 43.760002}
+        - {x: -18.5, y: 9.760002}
+        - {x: -12.5, y: -1.2399979}
+        - {x: -6.5, y: -5.239998}
+        - {x: 17.5, y: -5.239998}
+        - {x: 20.5, y: -4.239998}
+        - {x: 20.5, y: 53.760002}
+        - {x: 7.5, y: 61.760002}
+    - name: Mr Farhat_7
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 77
+        width: 41
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 61.760002}
+        - {x: -14.5, y: 54.760002}
+        - {x: -14.5, y: 38.760002}
+        - {x: -10.5, y: 16.760002}
+        - {x: -7.5, y: 9.760002}
+        - {x: -4.5, y: -4.239998}
+        - {x: -2.5, y: -7.239998}
+        - {x: 12.5, y: -7.239998}
+        - {x: 19.5, y: -5.239998}
+        - {x: 20.5, y: -1.2399979}
+        - {x: 20.5, y: 54.760002}
+        - {x: 14.5, y: 61.760002}
+    - name: Mr Farhat_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 41
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 61.760002}
+        - {x: -14.5, y: 55.760002}
+        - {x: -14.5, y: 18.76}
+        - {x: -8.5, y: -3.2399998}
+        - {x: -5.5, y: -7.24}
+        - {x: 11.5, y: -7.24}
+        - {x: 20.5, y: 1.7600002}
+        - {x: 20.5, y: 54.760002}
+        - {x: 13.5, y: 61.760002}
+    - name: Mr Farhat_9
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 41
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 61.760002}
+        - {x: -14.5, y: 53.760002}
+        - {x: -14.5, y: -5.24}
+        - {x: 17.5, y: -5.24}
+        - {x: 20.5, y: -3.2399998}
+        - {x: 20.5, y: 53.760002}
+        - {x: 11.5, y: 61.760002}
+    - name: Mr Farhat_10
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 0
+        width: 41
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 61.760002}
+        - {x: -4.5, y: 61.760002}
+        - {x: -14.5, y: 55.760002}
+        - {x: -14.5, y: 19.76}
+        - {x: -11.5, y: 7.76}
+        - {x: 3.5, y: -5.24}
+        - {x: 10.5, y: -5.24}
+        - {x: 15.5, y: -2.2399998}
+        - {x: 19.5, y: 19.76}
+        - {x: 20.5, y: 30.76}
+        - {x: 20.5, y: 55.760002}
+    - name: Mr Farhat_11
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 0
+        width: 41
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 61.760002}
+        - {x: -18.5, y: 53.760002}
+        - {x: -18.5, y: 7.76}
+        - {x: -9.5, y: -3.2399998}
+        - {x: 6.5, y: -3.2399998}
+        - {x: 20.5, y: -0.23999977}
+        - {x: 20.5, y: 60.760002}
+        - {x: 17.5, y: 61.760002}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

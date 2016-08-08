@@ -81,7 +81,7 @@ public class NPC : MonoBehaviour {
 			Vector2 newPos = new Vector2(poly.transform.position.x,poly.transform.position.y);
 			newPos+=poly.points[i]+poly.offset;
 
-			print (i+" : " +Vector2.Distance(transform.position,newPos));
+//			print (i+" : " +Vector2.Distance(transform.position,newPos));
 
 			if(Vector2.Distance(transform.position,newPos) < minToSelf){
 				minToSelf =  Vector2.Distance(transform.position,newPos);
@@ -169,8 +169,8 @@ public class NPC : MonoBehaviour {
 		hits = Physics2D.LinecastAll (transform.position, destination);
 		
 		foreach (RaycastHit2D hit in hits) {
-			if(hit.collider.name.Equals("plot") && Vector2.Distance(hit.point,transform.position)>0.1f){
-				print ("my path blocked by " + hit.collider.GetComponentInParent<Facility>().name);
+			if((hit.collider.name.Equals("plot")|| hit.collider.name.Equals("Not Passable"))&& Vector2.Distance(hit.point,transform.position)>0.1f){
+//				print ("my path blocked by " + hit.collider.GetComponentInParent<Facility>().name);
 				curHit = hit;
 				poly = (PolygonCollider2D)hit.collider;
 
@@ -199,12 +199,36 @@ public class NPC : MonoBehaviour {
 
 	IEnumerator encircle(){
 
+		int icr = 1;
 
 
 
-		for (int i = startIdx; i!= finishIdx;) {
+		if (startIdx > finishIdx) {
 
-			print ("encircling... "+i );
+
+
+			if (startIdx - finishIdx < poly.points.Length/2) {
+				icr = -1;
+			} else
+				icr = 1;
+
+		} else if ( startIdx < finishIdx){
+
+
+
+			if( finishIdx - startIdx < poly.points.Length/2 ){
+				icr = 1;
+			}
+			else icr = -1;
+		}
+
+
+		for (int i = startIdx; i!= finishIdx; ) {
+
+
+
+
+//			print ("encircling... "+i );
 
 			Vector2 newPos = new Vector2(poly.transform.position.x,poly.transform.position.y);
 			newPos+=poly.points[i]+poly.offset;
@@ -221,7 +245,10 @@ public class NPC : MonoBehaviour {
 
 			}
 
-		i+=startIdx<finishIdx?1:-1;
+			i+=icr;
+			if(i >= poly.points.Length) i = 0;
+			if(i < 0)i = poly.points.Length-1;
+
 		}
 
 

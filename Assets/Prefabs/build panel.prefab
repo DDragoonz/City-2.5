@@ -886,7 +886,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 22434532}
   m_Direction: 2
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.50631714
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1843,10 +1843,10 @@ RectTransform:
   - {fileID: 22458898}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0.066, y: 0.04960656}
-  m_AnchorMax: {x: 0.9497352, y: 0.77373224}
-  m_AnchoredPosition: {x: 1.0389996, y: -0.5}
-  m_SizeDelta: {x: -1.5220032, y: -2}
+  m_AnchorMin: {x: 0.13058852, y: 0.04960656}
+  m_AnchorMax: {x: 0.8632857, y: 0.72439164}
+  m_AnchoredPosition: {x: 0, y: -2.5}
+  m_SizeDelta: {x: 11, y: -5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22433190
 RectTransform:
