@@ -63,6 +63,8 @@ MonoBehaviour:
   allFacilityID:
   - pohon1
   - sampah1
+  - tokobuah1
+  - pohon2
 --- !u!212 &21233394
 SpriteRenderer:
   m_ObjectHideFlags: 1

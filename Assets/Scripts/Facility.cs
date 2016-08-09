@@ -81,6 +81,8 @@ public class Facility : MonoBehaviour
 		for (int i = 0; i < plot.points.Length; i++) {
 			plotPoints [i] += plot.offset;
 		}
+
+		StartCoroutine (newBuild ());
 	}
 
 	void Update ()
@@ -143,17 +145,17 @@ public class Facility : MonoBehaviour
 	}
 
 
-	void OnMouseDrag ()
-	{
-		if (GameManager.state == State.CHOOSE_FACILITY_PLOT) {
-			Vector3 pos = Camera.main.ScreenToWorldPoint (Input.mousePosition);
-			pos.z = pos.y;
-			if (data.isNew ()) {
-				transform.position = pos;
-
-			}
-		}
-	}
+//	void OnMouseDrag ()
+//	{
+//		if (GameManager.state == State.CHOOSE_FACILITY_PLOT) {
+//			Vector3 pos = Camera.main.ScreenToWorldPoint (Input.mousePosition);
+//			pos.z = pos.y;
+//			if (data.isNew ()) {
+//				transform.position = pos;
+//
+//			}
+//		}
+//	}
 
 	public void switchToPlot(bool toogleOn){
 		if (!toogleOn)GetComponent<PolygonCollider2D> ().SetPath (0, defaultPoints);
@@ -258,6 +260,7 @@ public class Facility : MonoBehaviour
 					if (f.facilityId.Equals (id)) {
 						counter++;
 						break;
+
 					}
 				}
 				}
@@ -289,6 +292,87 @@ public class Facility : MonoBehaviour
 		FindObjectOfType<UI_Manager_Region> ().updateValues ();
 //		gameObject.SetActive (false);
 //		Destroy (facility);
+
+	}
+
+	IEnumerator newBuild(){
+
+		print ("start new build");			
+		Vector2 pos = Vector2.zero;
+		bool isTouching = false;
+
+		while(GameManager.state == State.CHOOSE_FACILITY_PLOT && data.isNew()){
+
+
+#if UNITY_EDITOR
+
+
+			if(Input.GetMouseButtonDown(0)){
+
+				Vector2 touchPos = Camera.main.ScreenToWorldPoint (Input.mousePosition);
+				isTouching = false;
+
+
+				print ("checking position");
+				foreach(RaycastHit2D hit in Physics2D.RaycastAll (touchPos, Vector2.zero)){
+					if(hit.collider.tag.Equals("Objects")){
+						if(hit.collider.GetComponentInParent<Facility>().Equals(this)){
+							print ("enable drag");
+							isTouching = true;
+							break;
+						}
+					}
+				}
+
+
+			}
+			if(isTouching){
+				pos = Camera.main.ScreenToWorldPoint (Input.mousePosition);
+
+					
+				transform.position = new Vector3(pos.x,pos.y,pos.y);
+
+			}
+			if(Input.GetMouseButtonUp(0)){
+				print("not dragging");
+				isTouching = false;
+			}
+
+#elif UNITY_ANDROID
+			if (Input.touchCount == 1) {
+				Vector2 touchpos = Camera.main.ScreenToWorldPoint (Input.GetTouch (0).position);
+				RaycastHit2D[] hits = Physics2D.RaycastAll (touchpos, Vector2.zero);
+
+
+				print ("touchcount 1");
+
+				if (Input.GetTouch (0).phase == TouchPhase.Began) {
+
+					print ("checking position");
+					foreach(RaycastHit2D hit in hits){
+						if(hit.collider.GetComponentInParent<Facility>().Equals(this)){
+							isTouching = true;
+							break;
+						}
+					}
+
+					isTouching = false;
+				
+
+				}
+				if(Input.GetTouch(0).phase == TouchPhase.Moved && isTouching){
+					print("dragging");
+
+					transform.position = new Vector3(pos.x,pos.y,pos.y);
+				}
+
+
+			}
+
+#endif
+			yield return null;
+		}
+		print ("Finish build");
 	}
 
 

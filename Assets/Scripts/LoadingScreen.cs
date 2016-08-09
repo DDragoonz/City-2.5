@@ -4,6 +4,8 @@ using System.Collections;
 
 public class LoadingScreen : MonoBehaviour {
 
+	public float minimumLoadingTime = 0;
+
 	// Use this for initialization
 	void Start () {
 		StartCoroutine (loadRegion ());
@@ -15,7 +17,7 @@ public class LoadingScreen : MonoBehaviour {
 	}
 
 	IEnumerator loadRegion(){
-		yield return new WaitForSeconds (3f);
+		yield return new WaitForSeconds (minimumLoadingTime);
 		
 		AsyncOperation async = SceneManager.LoadSceneAsync ("Town "+GameManager.activeTown.id);
 		

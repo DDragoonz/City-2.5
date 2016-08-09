@@ -63,6 +63,8 @@ public class NPC : MonoBehaviour {
 				}
 			}
 		}
+
+
 		
 		destination = allDestination[Random.Range(0,allDestination.Count)];
 	}
@@ -185,7 +187,7 @@ public class NPC : MonoBehaviour {
 		
 	}
 	IEnumerator checkDestination(){
-		if (Vector2.Distance (curHit.collider.bounds.center, destination) < 0.05f) {
+		if (Vector2.Distance (curHit.collider.bounds.center, destination) < 0.1f) {
 			print ("arrive in final destination! i want to take a break");
 			state = NPCState.IDLE;
 		} else {
@@ -235,7 +237,7 @@ public class NPC : MonoBehaviour {
 
 			switchAnimationFacing(newPos);
 
-			while(Vector2.Distance(transform.position,newPos )>0.05f){
+			while(Vector2.Distance(transform.position,newPos )>0.1f){
 
 //				print (poly.transform.position);
 
@@ -255,7 +257,7 @@ public class NPC : MonoBehaviour {
 		switchAnimationFacing(new Vector2(poly.transform.position.x,poly.transform.position.y) + poly.points[finishIdx]+poly.offset);
 		
 		while(Vector2.Distance(transform.position,
-		                       new Vector2(poly.transform.position.x,poly.transform.position.y) + poly.points[finishIdx]+poly.offset )>0.05f){
+		                       new Vector2(poly.transform.position.x,poly.transform.position.y) + poly.points[finishIdx]+poly.offset )>0.1f){
 			
 			//				print (poly.transform.position);
 			

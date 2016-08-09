@@ -62,6 +62,8 @@ MonoBehaviour:
   tempDestination: {x: 0, y: 0}
   allFacilityID:
   - pohon1
+  - tokobuah1
+  - sampah1
 --- !u!212 &21215756
 SpriteRenderer:
   m_ObjectHideFlags: 1
