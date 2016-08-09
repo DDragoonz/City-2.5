@@ -52,7 +52,8 @@ public class CameraController : MonoBehaviour
 				if (hit.collider.GetComponent<Facility> ().data.isNew ()) {
 					allowDrag = false;
 				}
-			} else {
+			}
+			else {
 				
 				allowDrag = true;
 			}
@@ -62,7 +63,8 @@ public class CameraController : MonoBehaviour
 		}
 //			
 //
-		if (GameManager.state != State.BUILD_FACILITY_MENU && GameManager.state != State.BIG_DATA_MENU && GameManager.state != State.EVENT_MENU && allowDrag) {
+		if (GameManager.state != State.BUILD_FACILITY_MENU && GameManager.state != State.BIG_DATA_MENU
+		    && GameManager.state != State.EVENT_MENU && allowDrag) {
 			if (Input.GetMouseButton (0)) {
 			
 

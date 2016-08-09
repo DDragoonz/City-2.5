@@ -23,11 +23,12 @@ public class NPC : MonoBehaviour {
 	PolygonCollider2D poly;
 	int startIdx,finishIdx;
 	float lastX,lastY;
+	float speed;
 	
 	// Use this for initialization
 	void Start () {
 
-
+		speed = Random.Range (0.3f, 0.7f);
 
 		anim = GetComponent<Animator> ();
 		state = NPCState.IDLE;
@@ -62,6 +63,8 @@ public class NPC : MonoBehaviour {
 				}
 			}
 		}
+
+
 		
 		destination = allDestination[Random.Range(0,allDestination.Count)];
 	}
@@ -80,7 +83,7 @@ public class NPC : MonoBehaviour {
 			Vector2 newPos = new Vector2(poly.transform.position.x,poly.transform.position.y);
 			newPos+=poly.points[i]+poly.offset;
 
-			print (i+" : " +Vector2.Distance(transform.position,newPos));
+//			print (i+" : " +Vector2.Distance(transform.position,newPos));
 
 			if(Vector2.Distance(transform.position,newPos) < minToSelf){
 				minToSelf =  Vector2.Distance(transform.position,newPos);
@@ -152,7 +155,7 @@ public class NPC : MonoBehaviour {
 
 		while (Vector2.Distance(transform.position,tempDestination)>0.1f) {
 
-			transform.position = Vector2.MoveTowards(transform.position , tempDestination, Time.deltaTime/2);
+			transform.position = Vector2.MoveTowards(transform.position , tempDestination, Time.deltaTime*speed);
 			transform.position = new Vector3 (transform.position.x, transform.position.y, transform.position.y);
 			yield return null;
 		}
@@ -168,8 +171,8 @@ public class NPC : MonoBehaviour {
 		hits = Physics2D.LinecastAll (transform.position, destination);
 		
 		foreach (RaycastHit2D hit in hits) {
-			if(hit.collider.name.Equals("plot") && Vector2.Distance(hit.point,transform.position)>0.1f){
-				print ("my path blocked by " + hit.collider.GetComponentInParent<Facility>().name);
+			if((hit.collider.name.Equals("plot")|| hit.collider.name.Equals("Not Passable"))&& Vector2.Distance(hit.point,transform.position)>0.1f){
+//				print ("my path blocked by " + hit.collider.GetComponentInParent<Facility>().name);
 				curHit = hit;
 				poly = (PolygonCollider2D)hit.collider;
 
@@ -184,7 +187,7 @@ public class NPC : MonoBehaviour {
 		
 	}
 	IEnumerator checkDestination(){
-		if (Vector2.Distance (curHit.collider.bounds.center, destination) < 0.05f) {
+		if (Vector2.Distance (curHit.collider.bounds.center, destination) < 0.1f) {
 			print ("arrive in final destination! i want to take a break");
 			state = NPCState.IDLE;
 		} else {
@@ -198,41 +201,68 @@ public class NPC : MonoBehaviour {
 
 	IEnumerator encircle(){
 
+		int icr = 1;
 
 
 
-		for (int i = startIdx; i!= finishIdx;) {
+		if (startIdx > finishIdx) {
 
-			print ("encircling... "+i );
+
+
+			if (startIdx - finishIdx < poly.points.Length/2) {
+				icr = -1;
+			} else
+				icr = 1;
+
+		} else if ( startIdx < finishIdx){
+
+
+
+			if( finishIdx - startIdx < poly.points.Length/2 ){
+				icr = 1;
+			}
+			else icr = -1;
+		}
+
+
+		for (int i = startIdx; i!= finishIdx; ) {
+
+
+
+
+//			print ("encircling... "+i );
 
 			Vector2 newPos = new Vector2(poly.transform.position.x,poly.transform.position.y);
 			newPos+=poly.points[i]+poly.offset;
 
 			switchAnimationFacing(newPos);
 
-			while(Vector2.Distance(transform.position,newPos )>0.05f){
+			while(Vector2.Distance(transform.position,newPos )>0.1f){
 
 //				print (poly.transform.position);
 
-				transform.position = Vector2.MoveTowards(transform.position , newPos, Time.deltaTime/2);
+				transform.position = Vector2.MoveTowards(transform.position , newPos, Time.deltaTime*speed);
 				transform.position = new Vector3 (transform.position.x, transform.position.y, transform.position.y);
 				yield return null;
 
 			}
 
-		i+=startIdx<finishIdx?1:-1;
+			i+=icr;
+			if(i >= poly.points.Length) i = 0;
+			if(i < 0)i = poly.points.Length-1;
+
 		}
 
 
 		switchAnimationFacing(new Vector2(poly.transform.position.x,poly.transform.position.y) + poly.points[finishIdx]+poly.offset);
 		
 		while(Vector2.Distance(transform.position,
-		                       new Vector2(poly.transform.position.x,poly.transform.position.y) + poly.points[finishIdx]+poly.offset )>0.05f){
+		                       new Vector2(poly.transform.position.x,poly.transform.position.y) + poly.points[finishIdx]+poly.offset )>0.1f){
 			
 			//				print (poly.transform.position);
 			
 			transform.position = Vector2.MoveTowards(transform.position , new Vector2(poly.transform.position.x,poly.transform.position.y)
-			                                         + poly.points[finishIdx]+poly.offset, Time.deltaTime/2);
+			                                         + poly.points[finishIdx]+poly.offset, Time.deltaTime*speed);
 			transform.position = new Vector3 (transform.position.x, transform.position.y, transform.position.y);
 			yield return null;
 			

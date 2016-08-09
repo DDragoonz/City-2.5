@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: 4c288b73ae1ff7b4988f5fed439fa982
+timeCreated: 1470541117
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Mrs Irene_0
+    21300002: Mrs Irene_1
+    21300004: Mrs Irene_2
+    21300006: Mrs Irene_3
+    21300008: Mrs Irene_4
+    21300010: Mrs Irene_5
+    21300012: Mrs Irene_6
+    21300014: Mrs Irene_7
+    21300016: Mrs Irene_8
+    21300018: Mrs Irene_9
+    21300020: Mrs Irene_10
+    21300022: Mrs Irene_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Mrs Irene_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 53
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 83.100006}
+        - {x: -6.5, y: 83.100006}
+        - {x: -20.5, y: 73.100006}
+        - {x: -20.5, y: 22.100006}
+        - {x: -17.5, y: -3.899994}
+        - {x: 18.5, y: -3.899994}
+        - {x: 22.5, y: 11.100006}
+        - {x: 24.5, y: 50.100006}
+        - {x: 24.5, y: 73.100006}
+    - name: Mrs Irene_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 198
+        width: 53
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 85.100006}
+        - {x: -20.5, y: 78.100006}
+        - {x: -20.5, y: 43.100006}
+        - {x: -16.5, y: 13.100006}
+        - {x: 0.5, y: 0.1000061}
+        - {x: 19.5, y: 0.1000061}
+        - {x: 20.5, y: 1.1000061}
+        - {x: 24.5, y: 22.100006}
+        - {x: 24.5, y: 77.100006}
+        - {x: 10.5, y: 85.100006}
+    - name: Mrs Irene_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 198
+        width: 53
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 85.100006}
+        - {x: -11.5, y: 85.100006}
+        - {x: -24.5, y: 74.100006}
+        - {x: -24.5, y: 30.100006}
+        - {x: -22.5, y: 13.100006}
+        - {x: -18.5, y: 0.1000061}
+        - {x: 1.5, y: 0.1000061}
+        - {x: 6.5, y: 1.1000061}
+        - {x: 19.5, y: 13.100006}
+        - {x: 20.5, y: 25.100006}
+        - {x: 20.5, y: 83.100006}
+    - name: Mrs Irene_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 198
+        width: 53
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 77.100006}
+        - {x: -0.5, y: 83.100006}
+        - {x: -6.5, y: 83.100006}
+        - {x: -24.5, y: 73.100006}
+        - {x: -24.5, y: 39.100006}
+        - {x: -19.5, y: 3.100006}
+        - {x: -4.5, y: -3.899994}
+        - {x: 8.5, y: -3.899994}
+        - {x: 17.5, y: 8.100006}
+        - {x: 20.5, y: 42.100006}
+        - {x: 20.5, y: 71.100006}
+    - name: Mrs Irene_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 53
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 83.1}
+        - {x: -20.5, y: 73.1}
+        - {x: -20.5, y: 24.099998}
+        - {x: -18.5, y: 6.0999985}
+        - {x: -6.5, y: -5.9000015}
+        - {x: 14.5, y: -5.9000015}
+        - {x: 24.5, y: 12.099998}
+        - {x: 24.5, y: 72.1}
+        - {x: 6.5, y: 83.1}
+    - name: Mrs Irene_5
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 99
+        width: 53
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 85.1}
+        - {x: -6.5, y: 85.1}
+        - {x: -20.5, y: 77.1}
+        - {x: -20.5, y: 34.1}
+        - {x: -17.5, y: 5.0999985}
+        - {x: -6.5, y: 2.0999985}
+        - {x: 22.5, y: 2.0999985}
+        - {x: 24.5, y: 5.0999985}
+        - {x: 24.5, y: 81.1}
+    - name: Mrs Irene_6
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 99
+        width: 53
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 85.1}
+        - {x: -17.5, y: 85.1}
+        - {x: -24.5, y: 81.1}
+        - {x: -24.5, y: 4.0999985}
+        - {x: -23.5, y: -1.9000015}
+        - {x: 1.5, y: -1.9000015}
+        - {x: 17.5, y: 13.099998}
+        - {x: 20.5, y: 42.1}
+        - {x: 20.5, y: 76.1}
+    - name: Mrs Irene_7
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 99
+        width: 53
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 83.1}
+        - {x: -24.5, y: 74.1}
+        - {x: -24.5, y: 42.1}
+        - {x: -20.5, y: -1.9000015}
+        - {x: 8.5, y: -1.9000015}
+        - {x: 13.5, y: 1.0999985}
+        - {x: 20.5, y: 38.1}
+        - {x: 20.5, y: 73.1}
+        - {x: 5.5, y: 83.1}
+    - name: Mrs Irene_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 53
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 83.1}
+        - {x: -8.5, y: 83.1}
+        - {x: -20.5, y: 77.1}
+        - {x: -20.5, y: -1.9000015}
+        - {x: 19.5, y: -1.9000015}
+        - {x: 22.5, y: 3.0999985}
+        - {x: 24.5, y: 35.1}
+        - {x: 24.5, y: 74.1}
+    - name: Mrs Irene_9
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 53
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 85.1}
+        - {x: -20.5, y: 83.1}
+        - {x: -20.5, y: 31.099998}
+        - {x: -10.5, y: -1.9000015}
+        - {x: 11.5, y: -1.9000015}
+        - {x: 24.5, y: 10.099998}
+        - {x: 24.5, y: 84.1}
+        - {x: 15.5, y: 85.1}
+    - name: Mrs Irene_10
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 53
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 85.1}
+        - {x: -11.5, y: 85.1}
+        - {x: -24.5, y: 74.1}
+        - {x: -24.5, y: 34.1}
+        - {x: -20.5, y: 2.0999985}
+        - {x: 14.5, y: 2.0999985}
+        - {x: 18.5, y: 3.0999985}
+        - {x: 20.5, y: 25.099998}
+        - {x: 20.5, y: 82.1}
+    - name: Mrs Irene_11
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 53
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 83.1}
+        - {x: -24.5, y: 75.1}
+        - {x: -24.5, y: 24.099998}
+        - {x: -23.5, y: 10.099998}
+        - {x: -6.5, y: -5.9000015}
+        - {x: 12.5, y: -5.9000015}
+        - {x: 20.5, y: 23.099998}
+        - {x: 20.5, y: 79.1}
+        - {x: 9.5, y: 83.1}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

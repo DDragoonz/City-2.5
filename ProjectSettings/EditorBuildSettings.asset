@@ -10,6 +10,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Town Select.unity
   - enabled: 1
+    path: Assets/Loading Screen Town.unity
+  - enabled: 1
     path: Assets/Town 0.unity
   - enabled: 1
     path: Assets/Town 1.unity
