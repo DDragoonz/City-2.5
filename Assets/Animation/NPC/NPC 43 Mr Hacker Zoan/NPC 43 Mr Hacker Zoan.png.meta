@@ -1,0 +1,298 @@
+fileFormatVersion: 2
+guid: a28b169e7eddfa440bdc40c53c508d2f
+timeCreated: 1470988984
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NPC 43 Mr Hacker Zoan_0
+    21300002: NPC 43 Mr Hacker Zoan_1
+    21300004: NPC 43 Mr Hacker Zoan_2
+    21300006: NPC 43 Mr Hacker Zoan_3
+    21300008: NPC 43 Mr Hacker Zoan_4
+    21300010: NPC 43 Mr Hacker Zoan_5
+    21300012: NPC 43 Mr Hacker Zoan_6
+    21300014: NPC 43 Mr Hacker Zoan_7
+    21300016: NPC 43 Mr Hacker Zoan_8
+    21300018: NPC 43 Mr Hacker Zoan_9
+    21300020: NPC 43 Mr Hacker Zoan_10
+    21300022: NPC 43 Mr Hacker Zoan_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: NPC 43 Mr Hacker Zoan_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 206
+        width: 61
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 72.399994}
+        - {x: -19.5, y: 66.399994}
+        - {x: -20.5, y: 64.399994}
+        - {x: -20.5, y: -3.600006}
+        - {x: -13.5, y: -14.600006}
+        - {x: 16.5, y: -14.600006}
+        - {x: 20.5, y: -12.600006}
+        - {x: 20.5, y: 67.399994}
+        - {x: 8.5, y: 72.399994}
+    - name: NPC 43 Mr Hacker Zoan_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 206
+        width: 61
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 74.399994}
+        - {x: -7.5, y: 74.399994}
+        - {x: -20.5, y: 71.399994}
+        - {x: -20.5, y: 5.399994}
+        - {x: -17.5, y: -10.600006}
+        - {x: 20.5, y: -10.600006}
+        - {x: 20.5, y: 69.399994}
+    - name: NPC 43 Mr Hacker Zoan_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 206
+        width: 61
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 74.399994}
+        - {x: -20.5, y: 68.399994}
+        - {x: -20.5, y: -10.600006}
+        - {x: 4.5, y: -10.600006}
+        - {x: 20.5, y: 3.399994}
+        - {x: 20.5, y: 64.399994}
+        - {x: 2.5, y: 74.399994}
+    - name: NPC 43 Mr Hacker Zoan_3
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 206
+        width: 61
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 72.399994}
+        - {x: -3.5, y: 72.399994}
+        - {x: -20.5, y: 64.399994}
+        - {x: -20.5, y: -6.600006}
+        - {x: -1.5, y: -14.600006}
+        - {x: 10.5, y: -14.600006}
+        - {x: 17.5, y: -11.600006}
+        - {x: 20.5, y: 11.399994}
+        - {x: 20.5, y: 66.399994}
+    - name: NPC 43 Mr Hacker Zoan_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 103
+        width: 61
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 72.4}
+        - {x: -20.5, y: 62.4}
+        - {x: -20.5, y: 4.4000015}
+        - {x: -5.5, y: -16.599998}
+        - {x: 20.5, y: -16.599998}
+        - {x: 20.5, y: 71.4}
+        - {x: 16.5, y: 72.4}
+    - name: NPC 43 Mr Hacker Zoan_5
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 103
+        width: 61
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 74.4}
+        - {x: -20.5, y: 71.4}
+        - {x: -20.5, y: 6.4000015}
+        - {x: -18.5, y: -8.599998}
+        - {x: 20.5, y: -8.599998}
+        - {x: 24.5, y: -6.5999985}
+        - {x: 24.5, y: 59.4}
+        - {x: 14.5, y: 74.4}
+    - name: NPC 43 Mr Hacker Zoan_6
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 103
+        width: 61
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 74.4}
+        - {x: -20.5, y: 68.4}
+        - {x: -20.5, y: 3.4000015}
+        - {x: -15.5, y: -10.599998}
+        - {x: -12.5, y: -12.599998}
+        - {x: 1.5, y: -12.599998}
+        - {x: 20.5, y: 10.400002}
+        - {x: 20.5, y: 64.4}
+        - {x: 2.5, y: 74.4}
+    - name: NPC 43 Mr Hacker Zoan_7
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 103
+        width: 61
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 72.4}
+        - {x: -13.5, y: 72.4}
+        - {x: -24.5, y: 60.4}
+        - {x: -24.5, y: -9.599998}
+        - {x: -11.5, y: -12.599998}
+        - {x: 10.5, y: -12.599998}
+        - {x: 19.5, y: -8.599998}
+        - {x: 20.5, y: -2.5999985}
+        - {x: 20.5, y: 66.4}
+    - name: NPC 43 Mr Hacker Zoan_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 61
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 72.4}
+        - {x: -1.5, y: 72.4}
+        - {x: -20.5, y: 63.4}
+        - {x: -20.5, y: -12.6}
+        - {x: 22.5, y: -12.6}
+        - {x: 24.5, y: -10.6}
+        - {x: 24.5, y: 56.4}
+        - {x: 23.5, y: 65.4}
+    - name: NPC 43 Mr Hacker Zoan_9
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 0
+        width: 61
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 74.4}
+        - {x: -20.5, y: 66.4}
+        - {x: -20.5, y: 4.3999996}
+        - {x: -3.5, y: -12.6}
+        - {x: 20.5, y: -12.6}
+        - {x: 20.5, y: 71.4}
+        - {x: 13.5, y: 74.4}
+    - name: NPC 43 Mr Hacker Zoan_10
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 61
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 74.4}
+        - {x: -24.5, y: 69.4}
+        - {x: -24.5, y: -8.6}
+        - {x: 12.5, y: -8.6}
+        - {x: 20.5, y: 3.3999996}
+        - {x: 20.5, y: 65.4}
+        - {x: -0.5, y: 74.4}
+    - name: NPC 43 Mr Hacker Zoan_11
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 0
+        width: 61
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 72.4}
+        - {x: -9.5, y: 72.4}
+        - {x: -20.5, y: 66.4}
+        - {x: -20.5, y: -2.6000004}
+        - {x: -14.5, y: -12.6}
+        - {x: -6.5, y: -16.6}
+        - {x: 13.5, y: -16.6}
+        - {x: 16.5, y: -15.6}
+        - {x: 20.5, y: 9.4}
+        - {x: 20.5, y: 68.4}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

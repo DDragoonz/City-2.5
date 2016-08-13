@@ -1,0 +1,303 @@
+fileFormatVersion: 2
+guid: add0d201bf0c1474491f088e820092d6
+timeCreated: 1470920059
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NPC 6 Mr Cosplayer_0
+    21300002: NPC 6 Mr Cosplayer_1
+    21300004: NPC 6 Mr Cosplayer_2
+    21300006: NPC 6 Mr Cosplayer_3
+    21300008: NPC 6 Mr Cosplayer_4
+    21300010: NPC 6 Mr Cosplayer_5
+    21300012: NPC 6 Mr Cosplayer_6
+    21300014: NPC 6 Mr Cosplayer_7
+    21300016: NPC 6 Mr Cosplayer_8
+    21300018: NPC 6 Mr Cosplayer_9
+    21300020: NPC 6 Mr Cosplayer_10
+    21300022: NPC 6 Mr Cosplayer_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: NPC 6 Mr Cosplayer_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 214
+        width: 69
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 71.600006}
+        - {x: -10.5, y: 56.600006}
+        - {x: -20.5, y: 23.600006}
+        - {x: -20.5, y: -9.399994}
+        - {x: -15.5, y: -17.399994}
+        - {x: 28.5, y: -17.399994}
+        - {x: 28.5, y: 69.600006}
+        - {x: 25.5, y: 71.600006}
+    - name: NPC 6 Mr Cosplayer_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 214
+        width: 69
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 81.600006}
+        - {x: -9.5, y: 78.600006}
+        - {x: -20.5, y: 43.600006}
+        - {x: -20.5, y: -13.399994}
+        - {x: 28.5, y: -13.399994}
+        - {x: 28.5, y: 70.600006}
+        - {x: 8.5, y: 81.600006}
+    - name: NPC 6 Mr Cosplayer_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 214
+        width: 69
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 81.600006}
+        - {x: -28.5, y: 67.600006}
+        - {x: -28.5, y: -6.399994}
+        - {x: -9.5, y: -13.399994}
+        - {x: 20.5, y: -13.399994}
+        - {x: 20.5, y: 20.600006}
+        - {x: 8.5, y: 81.600006}
+    - name: NPC 6 Mr Cosplayer_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 214
+        width: 69
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 71.600006}
+        - {x: -28.5, y: 71.600006}
+        - {x: -28.5, y: -12.399994}
+        - {x: -9.5, y: -17.399994}
+        - {x: -2.5, y: -17.399994}
+        - {x: 20.5, y: -1.3999939}
+        - {x: 20.5, y: 23.600006}
+        - {x: 11.5, y: 57.600006}
+    - name: NPC 6 Mr Cosplayer_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 107
+        width: 69
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 71.600006}
+        - {x: 15.5, y: 71.600006}
+        - {x: -10.5, y: 56.600006}
+        - {x: -20.5, y: 23.600006}
+        - {x: -20.5, y: -9.399994}
+        - {x: -13.5, y: -21.399994}
+        - {x: 25.5, y: -21.399994}
+        - {x: 30.5, y: -3.399994}
+        - {x: 34.5, y: 17.600006}
+        - {x: 34.5, y: 47.600006}
+    - name: NPC 6 Mr Cosplayer_5
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 107
+        width: 69
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 77.600006}
+        - {x: -20.5, y: 54.600006}
+        - {x: -20.5, y: -17.399994}
+        - {x: 28.5, y: -17.399994}
+        - {x: 28.5, y: 73.600006}
+        - {x: 14.5, y: 77.600006}
+    - name: NPC 6 Mr Cosplayer_6
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 107
+        width: 69
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 18.600006}
+        - {x: -13.5, y: -17.399994}
+        - {x: 28.5, y: -17.399994}
+        - {x: 28.5, y: 19.600006}
+        - {x: 16.5, y: 77.600006}
+        - {x: -8.5, y: 77.600006}
+        - {x: -32.5, y: 52.600006}
+    - name: NPC 6 Mr Cosplayer_7
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 107
+        width: 69
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 71.600006}
+        - {x: -18.5, y: 71.600006}
+        - {x: -20.5, y: 69.600006}
+        - {x: -20.5, y: -11.399994}
+        - {x: -14.5, y: -15.399994}
+        - {x: -0.5, y: -15.399994}
+        - {x: 16.5, y: -13.399994}
+        - {x: 28.5, y: -2.399994}
+        - {x: 28.5, y: 22.600006}
+        - {x: 19.5, y: 57.600006}
+    - name: NPC 6 Mr Cosplayer_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 69
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 71.6}
+        - {x: -8.5, y: 65.6}
+        - {x: -20.5, y: 27.599998}
+        - {x: -20.5, y: -0.40000153}
+        - {x: -13.5, y: -14.400002}
+        - {x: -3.5, y: -15.400002}
+        - {x: 22.5, y: -15.400002}
+        - {x: 28.5, y: -12.400002}
+        - {x: 28.5, y: 70.6}
+        - {x: 25.5, y: 71.6}
+    - name: NPC 6 Mr Cosplayer_9
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 69
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 77.6}
+        - {x: -6.5, y: 77.6}
+        - {x: -9.5, y: 74.6}
+        - {x: -20.5, y: 20.599998}
+        - {x: -20.5, y: -17.400002}
+        - {x: 18.5, y: -17.400002}
+        - {x: 34.5, y: 19.599998}
+        - {x: 34.5, y: 56.6}
+        - {x: 33.5, y: 65.6}
+    - name: NPC 6 Mr Cosplayer_10
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 69
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 77.6}
+        - {x: -20.5, y: 63.6}
+        - {x: -20.5, y: -9.400002}
+        - {x: -12.5, y: -16.400002}
+        - {x: 1.5, y: -17.400002}
+        - {x: 26.5, y: -17.400002}
+        - {x: 28.5, y: -16.400002}
+        - {x: 28.5, y: 1.5999985}
+        - {x: 16.5, y: 77.6}
+    - name: NPC 6 Mr Cosplayer_11
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 0
+        width: 69
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 71.6}
+        - {x: -18.5, y: 71.6}
+        - {x: -21.5, y: 68.6}
+        - {x: -32.5, y: 35.6}
+        - {x: -32.5, y: 24.599998}
+        - {x: -31.5, y: 19.599998}
+        - {x: -11.5, y: -21.400002}
+        - {x: 13.5, y: -21.400002}
+        - {x: 28.5, y: -4.4000015}
+        - {x: 28.5, y: 23.599998}
+        - {x: 19.5, y: 57.6}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

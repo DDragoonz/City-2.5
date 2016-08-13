@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: NPC 5 Mrs Anatasya
+  m_Controller: {fileID: 9100000, guid: 73310518e32d5e9419183ca62105e06f, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 9a7fffde63bcdf742be03552bb94e28d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 62d211d506c86d24db813b7f924b18ac, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 18465351bff448948a271f836c2a18b4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 164c51965e93e7d42a31ddff8d3970d5, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 25c568b85060d0e4e95ce4cc7cdc6211, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6d753ecdeec07624dbe94c2d52b9a228, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 479f3cd49cb1a4441b62347aec31bbbe, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5f78dd4f36eaf584087692acab497770, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 010c38785851fc04ca6309baadfaa4f9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 78bef27ded070bd4dacec443f0e76eff, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 2d000f9c05017834d93901e2a8710af3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a2067d8d279e974498c6cf030c16b1f7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 37af064b10e73e449b5479c739577616, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: bbf57b34554cc5e46981f2c1b928e843, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8483d8cfe3b4e0b48a0eea65400a1655, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 52f9900ab9644364e836cb84e3d58220, type: 2}

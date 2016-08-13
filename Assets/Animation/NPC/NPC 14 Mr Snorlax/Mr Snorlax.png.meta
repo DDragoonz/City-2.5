@@ -1,0 +1,300 @@
+fileFormatVersion: 2
+guid: d158997f469b6724382d37a8fe271a7a
+timeCreated: 1470973608
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Mr Snorlax_0
+    21300002: Mr Snorlax_1
+    21300004: Mr Snorlax_2
+    21300006: Mr Snorlax_3
+    21300008: Mr Snorlax_4
+    21300010: Mr Snorlax_5
+    21300012: Mr Snorlax_6
+    21300014: Mr Snorlax_7
+    21300016: Mr Snorlax_8
+    21300018: Mr Snorlax_9
+    21300020: Mr Snorlax_10
+    21300022: Mr Snorlax_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Mr Snorlax_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 81
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 81.600006}
+        - {x: -24.5, y: 81.600006}
+        - {x: -30.5, y: 52.600006}
+        - {x: -30.5, y: 0.6000061}
+        - {x: -20.5, y: -11.399994}
+        - {x: 11.5, y: -11.399994}
+        - {x: 21.5, y: -1.3999939}
+        - {x: 26.5, y: 12.600006}
+        - {x: 26.5, y: 66.600006}
+    - name: Mr Snorlax_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 234
+        width: 81
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 81.600006}
+        - {x: -22.5, y: 80.600006}
+        - {x: -30.5, y: 59.600006}
+        - {x: -30.5, y: 19.600006}
+        - {x: -4.5, y: -9.399994}
+        - {x: 26.5, y: -9.399994}
+        - {x: 26.5, y: 75.600006}
+        - {x: -0.5, y: 81.600006}
+    - name: Mr Snorlax_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 234
+        width: 81
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 81.600006}
+        - {x: -26.5, y: 58.600006}
+        - {x: -26.5, y: -5.399994}
+        - {x: -16.5, y: -9.399994}
+        - {x: -3.5, y: -9.399994}
+        - {x: 14.5, y: -2.399994}
+        - {x: 30.5, y: 22.600006}
+        - {x: 30.5, y: 56.600006}
+        - {x: 23.5, y: 81.600006}
+    - name: Mr Snorlax_3
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 234
+        width: 81
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 81.600006}
+        - {x: -26.5, y: 81.600006}
+        - {x: -26.5, y: -11.399994}
+        - {x: 23.5, y: -11.399994}
+        - {x: 30.5, y: 12.600006}
+        - {x: 30.5, y: 53.600006}
+        - {x: 24.5, y: 70.600006}
+    - name: Mr Snorlax_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 117
+        width: 81
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: -7.399994}
+        - {x: 26.5, y: -3.399994}
+        - {x: 26.5, y: 81.600006}
+        - {x: -4.5, y: 81.600006}
+        - {x: -26.5, y: 75.600006}
+        - {x: -26.5, y: -7.399994}
+    - name: Mr Snorlax_5
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 117
+        width: 81
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 81.600006}
+        - {x: -26.5, y: 81.600006}
+        - {x: -30.5, y: 67.600006}
+        - {x: -30.5, y: 12.600006}
+        - {x: -6.5, y: -9.399994}
+        - {x: 12.5, y: -9.399994}
+        - {x: 30.5, y: 11.600006}
+        - {x: 30.5, y: 40.600006}
+        - {x: 24.5, y: 70.600006}
+    - name: Mr Snorlax_6
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 117
+        width: 81
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 81.600006}
+        - {x: -23.5, y: 69.600006}
+        - {x: -26.5, y: 57.600006}
+        - {x: -26.5, y: 1.6000061}
+        - {x: -20.5, y: -7.399994}
+        - {x: 14.5, y: -7.399994}
+        - {x: 26.5, y: -4.399994}
+        - {x: 26.5, y: 70.600006}
+        - {x: 24.5, y: 81.600006}
+    - name: Mr Snorlax_7
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 117
+        width: 81
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 81.600006}
+        - {x: -30.5, y: 78.600006}
+        - {x: -30.5, y: 13.600006}
+        - {x: -17.5, y: -13.399994}
+        - {x: 8.5, y: -13.399994}
+        - {x: 30.5, y: 9.600006}
+        - {x: 30.5, y: 57.600006}
+        - {x: 9.5, y: 81.600006}
+    - name: Mr Snorlax_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 81
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 81.6}
+        - {x: -30.5, y: 56.6}
+        - {x: -30.5, y: 2.5999985}
+        - {x: -17.5, y: -11.400002}
+        - {x: 5.5, y: -11.400002}
+        - {x: 25.5, y: 4.5999985}
+        - {x: 30.5, y: 19.599998}
+        - {x: 30.5, y: 49.6}
+        - {x: 22.5, y: 81.6}
+    - name: Mr Snorlax_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 81
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 81.6}
+        - {x: -26.5, y: 79.6}
+        - {x: -26.5, y: 2.5999985}
+        - {x: -19.5, y: -9.400002}
+        - {x: 26.5, y: -9.400002}
+        - {x: 26.5, y: 72.6}
+        - {x: 12.5, y: 81.6}
+    - name: Mr Snorlax_10
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 81
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 81.6}
+        - {x: -23.5, y: 81.6}
+        - {x: -30.5, y: 46.6}
+        - {x: -30.5, y: 10.599998}
+        - {x: -3.5, y: -9.400002}
+        - {x: 4.5, y: -9.400002}
+        - {x: 9.5, y: -8.400002}
+        - {x: 30.5, y: 28.599998}
+        - {x: 30.5, y: 48.6}
+        - {x: 29.5, y: 52.6}
+    - name: Mr Snorlax_11
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 0
+        width: 81
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 81.6}
+        - {x: -26.5, y: 69.6}
+        - {x: -26.5, y: 15.599998}
+        - {x: -24.5, y: 10.599998}
+        - {x: -16.5, y: -5.4000015}
+        - {x: 26.5, y: -5.4000015}
+        - {x: 26.5, y: 75.6}
+        - {x: -0.5, y: 81.6}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

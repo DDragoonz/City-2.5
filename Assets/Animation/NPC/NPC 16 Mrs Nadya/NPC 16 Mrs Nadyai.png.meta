@@ -1,0 +1,299 @@
+fileFormatVersion: 2
+guid: 0aed8df6c6c099345bb49d73fae2155c
+timeCreated: 1470974899
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NPC 16 Mrs Nadyai_0
+    21300002: NPC 16 Mrs Nadyai_1
+    21300004: NPC 16 Mrs Nadyai_2
+    21300006: NPC 16 Mrs Nadyai_3
+    21300008: NPC 16 Mrs Nadyai_4
+    21300010: NPC 16 Mrs Nadyai_5
+    21300012: NPC 16 Mrs Nadyai_6
+    21300014: NPC 16 Mrs Nadyai_7
+    21300016: NPC 16 Mrs Nadyai_8
+    21300018: NPC 16 Mrs Nadyai_9
+    21300020: NPC 16 Mrs Nadyai_10
+    21300022: NPC 16 Mrs Nadyai_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: NPC 16 Mrs Nadyai_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 194
+        width: 57
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 71.600006}
+        - {x: -22.5, y: 68.600006}
+        - {x: -22.5, y: 10.600006}
+        - {x: -17.5, y: -10.399994}
+        - {x: -11.5, y: -13.399994}
+        - {x: 0.5, y: -13.399994}
+        - {x: 18.5, y: -6.399994}
+        - {x: 22.5, y: 0.6000061}
+        - {x: 22.5, y: 61.600006}
+        - {x: 18.5, y: 71.600006}
+    - name: NPC 16 Mrs Nadyai_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 194
+        width: 57
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 71.600006}
+        - {x: -15.5, y: 71.600006}
+        - {x: -22.5, y: 64.600006}
+        - {x: -22.5, y: 32.600006}
+        - {x: -14.5, y: -4.399994}
+        - {x: 5.5, y: -11.399994}
+        - {x: 13.5, y: -11.399994}
+        - {x: 21.5, y: -7.399994}
+        - {x: 22.5, y: 2.600006}
+        - {x: 22.5, y: 66.600006}
+    - name: NPC 16 Mrs Nadyai_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 194
+        width: 57
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 71.600006}
+        - {x: -22.5, y: -11.399994}
+        - {x: 11.5, y: -11.399994}
+        - {x: 22.5, y: 4.600006}
+        - {x: 22.5, y: 68.600006}
+        - {x: 10.5, y: 71.600006}
+    - name: NPC 16 Mrs Nadyai_3
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 194
+        width: 57
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 71.600006}
+        - {x: -14.5, y: 71.600006}
+        - {x: -22.5, y: 67.600006}
+        - {x: -22.5, y: -6.399994}
+        - {x: -1.5, y: -13.399994}
+        - {x: 9.5, y: -13.399994}
+        - {x: 15.5, y: -8.399994}
+        - {x: 22.5, y: 26.600006}
+        - {x: 22.5, y: 68.600006}
+    - name: NPC 16 Mrs Nadyai_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 97
+        width: 57
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 71.6}
+        - {x: -9.5, y: 71.6}
+        - {x: -18.5, y: 69.6}
+        - {x: -22.5, y: 64.6}
+        - {x: -22.5, y: -8.400002}
+        - {x: -15.5, y: -11.400002}
+        - {x: 12.5, y: -11.400002}
+        - {x: 22.5, y: -6.4000015}
+        - {x: 22.5, y: 67.6}
+    - name: NPC 16 Mrs Nadyai_5
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 97
+        width: 57
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 71.6}
+        - {x: -22.5, y: 70.6}
+        - {x: -22.5, y: 16.599998}
+        - {x: -12.5, y: -12.400002}
+        - {x: -9.5, y: -13.400002}
+        - {x: 22.5, y: -13.400002}
+        - {x: 22.5, y: 71.6}
+    - name: NPC 16 Mrs Nadyai_6
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 97
+        width: 57
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 71.6}
+        - {x: -22.5, y: 66.6}
+        - {x: -22.5, y: -5.4000015}
+        - {x: -18.5, y: -9.400002}
+        - {x: 22.5, y: -9.400002}
+        - {x: 22.5, y: 71.6}
+    - name: NPC 16 Mrs Nadyai_7
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 97
+        width: 57
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 71.6}
+        - {x: -22.5, y: 60.6}
+        - {x: -22.5, y: -2.4000015}
+        - {x: -8.5, y: -15.400002}
+        - {x: 11.5, y: -15.400002}
+        - {x: 22.5, y: 4.5999985}
+        - {x: 22.5, y: 61.6}
+        - {x: 11.5, y: 71.6}
+    - name: NPC 16 Mrs Nadyai_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 57
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 71.6}
+        - {x: -22.5, y: 62.6}
+        - {x: -22.5, y: 16.6}
+        - {x: -19.5, y: 9.6}
+        - {x: -13.5, y: -11.4}
+        - {x: -8.5, y: -15.4}
+        - {x: 11.5, y: -15.4}
+        - {x: 22.5, y: 3.6000004}
+        - {x: 22.5, y: 66.6}
+        - {x: 10.5, y: 71.6}
+    - name: NPC 16 Mrs Nadyai_9
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 0
+        width: 57
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 71.6}
+        - {x: -22.5, y: 62.6}
+        - {x: -22.5, y: -7.3999996}
+        - {x: -15.5, y: -9.4}
+        - {x: 20.5, y: -9.4}
+        - {x: 22.5, y: -5.3999996}
+        - {x: 22.5, y: 59.6}
+        - {x: 15.5, y: 71.6}
+    - name: NPC 16 Mrs Nadyai_10
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 57
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 71.6}
+        - {x: -22.5, y: -13.4}
+        - {x: 6.5, y: -13.4}
+        - {x: 22.5, y: 5.6000004}
+        - {x: 22.5, y: 67.6}
+        - {x: 9.5, y: 71.6}
+    - name: NPC 16 Mrs Nadyai_11
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 0
+        width: 57
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 71.6}
+        - {x: -19.5, y: 64.6}
+        - {x: -22.5, y: 43.6}
+        - {x: -22.5, y: -7.3999996}
+        - {x: -13.5, y: -11.4}
+        - {x: 18.5, y: -11.4}
+        - {x: 22.5, y: -8.4}
+        - {x: 22.5, y: 70.6}
+        - {x: 16.5, y: 71.6}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

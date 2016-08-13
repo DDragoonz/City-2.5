@@ -56,6 +56,7 @@ public class NPC : MonoBehaviour{
 		allDestination.Clear ();
 		
 		foreach (Facility f in FindObjectsOfType<Facility>()) {
+
 			if(!f.data.isNew()){
 			foreach(string s in allFacilityID){
 				if(f.data.facilityId.Equals(s)){
@@ -69,8 +70,11 @@ public class NPC : MonoBehaviour{
 
 		if (allDestination.Count > 0) {
 			destination = allDestination [Random.Range (0, allDestination.Count)];
-		} else
+		} else {
+
+			print("no where to go");
 			Destroy (gameObject);
+		}
 	}
 
 

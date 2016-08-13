@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: NPC 7 Mrs Lisa
+  m_Controller: {fileID: 9100000, guid: 73310518e32d5e9419183ca62105e06f, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 9a7fffde63bcdf742be03552bb94e28d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 381f415334bc83846a856ca374b55656, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 18465351bff448948a271f836c2a18b4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5d6e6c02831ed5e4896d047ea7bfc816, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 25c568b85060d0e4e95ce4cc7cdc6211, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c868926893efd4642bf7180d92c185b7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 479f3cd49cb1a4441b62347aec31bbbe, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6f5929e7d560a3e41b15ae0831405b0e, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 010c38785851fc04ca6309baadfaa4f9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 936eb10a1bb23c842aaa1e39b674cc50, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 2d000f9c05017834d93901e2a8710af3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: dc217955537b8174aab4a55695d0dcf8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 37af064b10e73e449b5479c739577616, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1ac27e341c73eb34ab1b70d2fed1f342, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8483d8cfe3b4e0b48a0eea65400a1655, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f5fe61700f08c6142af1fab5333b7b69, type: 2}

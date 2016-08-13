@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: NPC 18 Mr Johan
+  m_Controller: {fileID: 9100000, guid: 73310518e32d5e9419183ca62105e06f, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 9a7fffde63bcdf742be03552bb94e28d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f74aa5bd38e31fe49b6b34925dc4c5ba, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 18465351bff448948a271f836c2a18b4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0cfd75e519376dd40acb8071cae21641, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 25c568b85060d0e4e95ce4cc7cdc6211, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8df0578dfa0fab44696b4d46bb7c6bab, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 479f3cd49cb1a4441b62347aec31bbbe, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 49a5594197500994d86d25a34d6b80c5, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 010c38785851fc04ca6309baadfaa4f9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e5776b513548fd842be35ab45312ff28, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 2d000f9c05017834d93901e2a8710af3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5a20db884ec69af42bb4c4954881cbe3, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 37af064b10e73e449b5479c739577616, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0a92f54a3dfe4694e855dd1cb058b17a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8483d8cfe3b4e0b48a0eea65400a1655, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d7f7efaaf333e7143bdd1b6d4ee014cc, type: 2}

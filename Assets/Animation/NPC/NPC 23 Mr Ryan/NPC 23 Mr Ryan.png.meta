@@ -1,0 +1,306 @@
+fileFormatVersion: 2
+guid: ff16b5e5735403a4cac80c17530e6265
+timeCreated: 1470980951
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NPC 23 Mr Ryan_0
+    21300002: NPC 23 Mr Ryan_1
+    21300004: NPC 23 Mr Ryan_2
+    21300006: NPC 23 Mr Ryan_3
+    21300008: NPC 23 Mr Ryan_4
+    21300010: NPC 23 Mr Ryan_5
+    21300012: NPC 23 Mr Ryan_6
+    21300014: NPC 23 Mr Ryan_7
+    21300016: NPC 23 Mr Ryan_8
+    21300018: NPC 23 Mr Ryan_9
+    21300020: NPC 23 Mr Ryan_10
+    21300022: NPC 23 Mr Ryan_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: NPC 23 Mr Ryan_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 53
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 70}
+        - {x: -20.5, y: 67}
+        - {x: -20.5, y: 1}
+        - {x: -14.5, y: -15}
+        - {x: 20.5, y: -15}
+        - {x: 20.5, y: 70}
+    - name: NPC 23 Mr Ryan_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 190
+        width: 53
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 70}
+        - {x: -20.5, y: 10}
+        - {x: -13.5, y: 0}
+        - {x: 3.5, y: -11}
+        - {x: 14.5, y: -11}
+        - {x: 20.5, y: -9}
+        - {x: 20.5, y: 41}
+        - {x: 18.5, y: 63}
+        - {x: 9.5, y: 70}
+    - name: NPC 23 Mr Ryan_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 190
+        width: 53
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 70}
+        - {x: -20.5, y: 61}
+        - {x: -20.5, y: -11}
+        - {x: 2.5, y: -11}
+        - {x: 13.5, y: 0}
+        - {x: 20.5, y: 37}
+        - {x: 20.5, y: 63}
+        - {x: 12.5, y: 70}
+    - name: NPC 23 Mr Ryan_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 190
+        width: 53
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 70}
+        - {x: -20.5, y: -12}
+        - {x: -13.5, y: -15}
+        - {x: 10.5, y: -15}
+        - {x: 20.5, y: 2}
+        - {x: 20.5, y: 67}
+        - {x: 8.5, y: 70}
+    - name: NPC 23 Mr Ryan_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 53
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 67}
+        - {x: 12.5, y: 70}
+        - {x: -11.5, y: 70}
+        - {x: -20.5, y: 61}
+        - {x: -20.5, y: 13}
+        - {x: -14.5, y: 5}
+        - {x: -7.5, y: -16}
+        - {x: -4.5, y: -17}
+        - {x: 4.5, y: -17}
+        - {x: 15.5, y: -13}
+        - {x: 24.5, y: 15}
+        - {x: 24.5, y: 45}
+        - {x: 23.5, y: 49}
+    - name: NPC 23 Mr Ryan_5
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 95
+        width: 53
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 68}
+        - {x: -20.5, y: 68}
+        - {x: -20.5, y: -11}
+        - {x: 22.5, y: -11}
+        - {x: 24.5, y: -10}
+        - {x: 24.5, y: 18}
+        - {x: 18.5, y: 61}
+    - name: NPC 23 Mr Ryan_6
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 95
+        width: 53
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 68}
+        - {x: -15.5, y: 63}
+        - {x: -20.5, y: 53}
+        - {x: -20.5, y: 4}
+        - {x: -16.5, y: -12}
+        - {x: -7.5, y: -15}
+        - {x: 15.5, y: -15}
+        - {x: 24.5, y: 15}
+        - {x: 24.5, y: 68}
+    - name: NPC 23 Mr Ryan_7
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 95
+        width: 53
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 70}
+        - {x: -20.5, y: 48}
+        - {x: -20.5, y: -10}
+        - {x: -18.5, y: -13}
+        - {x: 24.5, y: -13}
+        - {x: 24.5, y: 68}
+        - {x: 20.5, y: 70}
+    - name: NPC 23 Mr Ryan_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 53
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: -9}
+        - {x: -14.5, y: -13}
+        - {x: 11.5, y: -13}
+        - {x: 24.5, y: -10}
+        - {x: 24.5, y: 25}
+        - {x: 15.5, y: 69}
+        - {x: 14.5, y: 70}
+        - {x: -17.5, y: 70}
+        - {x: -20.5, y: 69}
+    - name: NPC 23 Mr Ryan_9
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 53
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 67}
+        - {x: 16.5, y: 68}
+        - {x: -12.5, y: 68}
+        - {x: -20.5, y: 66}
+        - {x: -20.5, y: 13}
+        - {x: -9.5, y: -14}
+        - {x: -3.5, y: -15}
+        - {x: 12.5, y: -15}
+        - {x: 19.5, y: -11}
+        - {x: 24.5, y: -1}
+        - {x: 24.5, y: 44}
+    - name: NPC 23 Mr Ryan_10
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 53
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 68}
+        - {x: -2.5, y: 68}
+        - {x: -16.5, y: 63}
+        - {x: -20.5, y: 19}
+        - {x: -20.5, y: -8}
+        - {x: -13.5, y: -11}
+        - {x: 4.5, y: -11}
+        - {x: 20.5, y: -8}
+        - {x: 24.5, y: 27}
+        - {x: 24.5, y: 62}
+    - name: NPC 23 Mr Ryan_11
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 53
+        height: 95
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 70}
+        - {x: -16.5, y: 67}
+        - {x: -20.5, y: 61}
+        - {x: -20.5, y: -1}
+        - {x: -16.5, y: -17}
+        - {x: 10.5, y: -17}
+        - {x: 24.5, y: 5}
+        - {x: 24.5, y: 62}
+        - {x: 18.5, y: 70}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

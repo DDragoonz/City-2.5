@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: 8e55581e1a2975d429909bf5ed6f3cca
+timeCreated: 1470984799
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NPC 32 Mrs Pudghes_0
+    21300002: NPC 32 Mrs Pudghes_1
+    21300004: NPC 32 Mrs Pudghes_2
+    21300006: NPC 32 Mrs Pudghes_3
+    21300008: NPC 32 Mrs Pudghes_4
+    21300010: NPC 32 Mrs Pudghes_5
+    21300012: NPC 32 Mrs Pudghes_6
+    21300014: NPC 32 Mrs Pudghes_7
+    21300016: NPC 32 Mrs Pudghes_8
+    21300018: NPC 32 Mrs Pudghes_9
+    21300020: NPC 32 Mrs Pudghes_10
+    21300022: NPC 32 Mrs Pudghes_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: NPC 32 Mrs Pudghes_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 218
+        width: 89
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 73.2}
+        - {x: -34.5, y: 52.199997}
+        - {x: -34.5, y: 1.199997}
+        - {x: -17.5, y: -5.800003}
+        - {x: 6.5, y: -5.800003}
+        - {x: 42.5, y: 7.199997}
+        - {x: 42.5, y: 41.199997}
+        - {x: 26.5, y: 73.2}
+    - name: NPC 32 Mrs Pudghes_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 218
+        width: 89
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 69.2}
+        - {x: -34.5, y: 66.2}
+        - {x: -34.5, y: 28.199997}
+        - {x: -23.5, y: 0.19999695}
+        - {x: -10.5, y: -7.800003}
+        - {x: 13.5, y: -7.800003}
+        - {x: 34.5, y: 5.199997}
+        - {x: 34.5, y: 32.199997}
+        - {x: 24.5, y: 69.2}
+    - name: NPC 32 Mrs Pudghes_2
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 218
+        width: 89
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: 54.199997}
+        - {x: 12.5, y: 69.2}
+        - {x: -31.5, y: 69.2}
+        - {x: -42.5, y: 45.199997}
+        - {x: -42.5, y: -5.800003}
+        - {x: -15.5, y: -7.800003}
+        - {x: -0.5, y: -7.800003}
+        - {x: 16.5, y: 0.19999695}
+        - {x: 18.5, y: 4.199997}
+        - {x: 34.5, y: 28.199997}
+    - name: NPC 32 Mrs Pudghes_3
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 218
+        width: 89
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 17.199997}
+        - {x: -6.5, y: -5.800003}
+        - {x: 17.5, y: -5.800003}
+        - {x: 34.5, y: 8.199997}
+        - {x: 34.5, y: 44.199997}
+        - {x: 23.5, y: 70.2}
+        - {x: 20.5, y: 73.2}
+        - {x: -9.5, y: 73.2}
+        - {x: -34.5, y: 48.199997}
+    - name: NPC 32 Mrs Pudghes_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 109
+        width: 89
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 73.2}
+        - {x: -25.5, y: 73.2}
+        - {x: -34.5, y: 40.199997}
+        - {x: -34.5, y: 7.199997}
+        - {x: -19.5, y: -7.800003}
+        - {x: 13.5, y: -7.800003}
+        - {x: 42.5, y: 16.199997}
+        - {x: 42.5, y: 38.199997}
+        - {x: 15.5, y: 64.2}
+    - name: NPC 32 Mrs Pudghes_5
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 109
+        width: 89
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 69.2}
+        - {x: -34.5, y: 56.199997}
+        - {x: -34.5, y: 11.199997}
+        - {x: -24.5, y: -5.800003}
+        - {x: 23.5, y: -5.800003}
+        - {x: 34.5, y: -1.800003}
+        - {x: 34.5, y: 33.199997}
+        - {x: 24.5, y: 69.2}
+    - name: NPC 32 Mrs Pudghes_6
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 109
+        width: 89
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 69.2}
+        - {x: -42.5, y: 39.199997}
+        - {x: -42.5, y: 6.199997}
+        - {x: -10.5, y: -9.800003}
+        - {x: 10.5, y: -9.800003}
+        - {x: 34.5, y: 15.199997}
+        - {x: 34.5, y: 50.199997}
+        - {x: 27.5, y: 69.2}
+    - name: NPC 32 Mrs Pudghes_7
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 109
+        width: 89
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 73.2}
+        - {x: -0.5, y: 73.2}
+        - {x: -16.5, y: 65.2}
+        - {x: -34.5, y: 37.199997}
+        - {x: -34.5, y: 23.199997}
+        - {x: -33.5, y: 19.199997}
+        - {x: -21.5, y: 2.199997}
+        - {x: -10.5, y: -3.800003}
+        - {x: 28.5, y: -3.800003}
+        - {x: 34.5, y: 17.199997}
+        - {x: 34.5, y: 43.199997}
+        - {x: 19.5, y: 66.2}
+    - name: NPC 32 Mrs Pudghes_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 89
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 73.2}
+        - {x: -10.5, y: 73.2}
+        - {x: -28.5, y: 62.199997}
+        - {x: -34.5, y: 49.199997}
+        - {x: -34.5, y: 6.199997}
+        - {x: -24.5, y: -3.800003}
+        - {x: 38.5, y: -3.800003}
+        - {x: 42.5, y: 6.199997}
+        - {x: 42.5, y: 53.199997}
+    - name: NPC 32 Mrs Pudghes_9
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 0
+        width: 89
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 69.2}
+        - {x: -14.5, y: 69.2}
+        - {x: -34.5, y: 53.199997}
+        - {x: -34.5, y: 29.199997}
+        - {x: -27.5, y: 10.199997}
+        - {x: -11.5, y: -4.800003}
+        - {x: -4.5, y: -9.800003}
+        - {x: 25.5, y: -9.800003}
+        - {x: 34.5, y: 7.199997}
+        - {x: 34.5, y: 44.199997}
+        - {x: 12.5, y: 63.199997}
+    - name: NPC 32 Mrs Pudghes_10
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 0
+        width: 89
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 69.2}
+        - {x: -14.5, y: 69.2}
+        - {x: -42.5, y: 45.199997}
+        - {x: -42.5, y: 3.199997}
+        - {x: -23.5, y: -5.800003}
+        - {x: 23.5, y: -5.800003}
+        - {x: 34.5, y: 18.199997}
+        - {x: 34.5, y: 38.199997}
+        - {x: 26.5, y: 63.199997}
+    - name: NPC 32 Mrs Pudghes_11
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 0
+        width: 89
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: -0.80000305}
+        - {x: -30.5, y: -7.800003}
+        - {x: 11.5, y: -7.800003}
+        - {x: 34.5, y: 6.199997}
+        - {x: 34.5, y: 39.199997}
+        - {x: 19.5, y: 67.2}
+        - {x: 14.5, y: 73.2}
+        - {x: -5.5, y: 73.2}
+        - {x: -34.5, y: 52.199997}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

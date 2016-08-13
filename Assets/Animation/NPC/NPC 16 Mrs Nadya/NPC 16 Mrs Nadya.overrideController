@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: NPC 16 Mrs Nadya
+  m_Controller: {fileID: 9100000, guid: 73310518e32d5e9419183ca62105e06f, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 9a7fffde63bcdf742be03552bb94e28d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 87276ea0e72935647803ee2e199e2357, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 18465351bff448948a271f836c2a18b4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b94146a1ea7445a478903c652a03d6a4, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 25c568b85060d0e4e95ce4cc7cdc6211, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d007d4c3234527c4c802f4a527974ee1, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 479f3cd49cb1a4441b62347aec31bbbe, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e4708a2249fa89d478f3b208f50e77fe, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 010c38785851fc04ca6309baadfaa4f9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b45a4c2fc6d075e4aa3dbc4a9b4e9a0d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 2d000f9c05017834d93901e2a8710af3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8cbb0c16a6b6eb145985e91a75a518b0, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 37af064b10e73e449b5479c739577616, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: bff03a2dc075ffe41be6d2d00c43c263, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8483d8cfe3b4e0b48a0eea65400a1655, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 12d8098102e384847b85ef63ee166106, type: 2}
