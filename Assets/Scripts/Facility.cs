@@ -117,32 +117,32 @@ public class Facility : MonoBehaviour
 
 
 
-	void OnMouseOver ()
-	{
-		if (Input.GetMouseButtonDown (0) && GameManager.state == State.REGION_GAMEPLAY) {
-			unselectAll ();
-			if (!isSelected) {
-
-				detailPanel.GetComponent<DetailPanel> ().changeFacility (this);
-				isSelected = true;
-//				GetComponent<SpriteRenderer> ().sprite = selected;
-				GetComponent<SpriteRenderer> ().sortingLayerName = "Selected";
-				foreach (Image i in detailPanel.GetComponentsInChildren<Image>()) {
-					if (i.name.Equals ("Icon")) {
-						i.sprite = normal;
-						break;
-					}
-				}
-				foreach (Text i in detailPanel.GetComponentsInChildren<Text>()) {
-					if (i.name.Equals ("Nama Objek")) {
-						i.text = name;
-						break;
-					}
-				}
-			}
-		}
-
-	}
+//	void OnMouseOver ()
+//	{
+//		if (Input.GetMouseButtonDown (0) && GameManager.state == State.REGION_GAMEPLAY) {
+//			unselectAll ();
+//			if (!isSelected) {
+//
+//				detailPanel.GetComponent<DetailPanel> ().changeFacility (this);
+//				isSelected = true;
+////				GetComponent<SpriteRenderer> ().sprite = selected;
+//				GetComponent<SpriteRenderer> ().sortingLayerName = "Selected";
+//				foreach (Image i in detailPanel.GetComponentsInChildren<Image>()) {
+//					if (i.name.Equals ("Icon")) {
+//						i.sprite = normal;
+//						break;
+//					}
+//				}
+//				foreach (Text i in detailPanel.GetComponentsInChildren<Text>()) {
+//					if (i.name.Equals ("Nama Objek")) {
+//						i.text = name;
+//						break;
+//					}
+//				}
+//			}
+//		}
+//
+//	}
 
 
 //	void OnMouseDrag ()
@@ -299,6 +299,7 @@ public class Facility : MonoBehaviour
 
 		print ("start new build");			
 		Vector2 pos = Vector2.zero;
+		Vector3 offset = Vector3.zero;
 		bool isTouching = false;
 
 		while(GameManager.state == State.CHOOSE_FACILITY_PLOT && data.isNew()){
@@ -311,14 +312,17 @@ public class Facility : MonoBehaviour
 
 				Vector2 touchPos = Camera.main.ScreenToWorldPoint (Input.mousePosition);
 				isTouching = false;
-
+				offset = gameObject.transform.position - new Vector3(touchPos.x,touchPos.y);
 
 				print ("checking position");
 				foreach(RaycastHit2D hit in Physics2D.RaycastAll (touchPos, Vector2.zero)){
+
+
 					if(hit.collider.tag.Equals("Objects")){
 						if(hit.collider.GetComponentInParent<Facility>().Equals(this)){
 							print ("enable drag");
 							isTouching = true;
+
 							break;
 						}
 					}
@@ -330,7 +334,7 @@ public class Facility : MonoBehaviour
 				pos = Camera.main.ScreenToWorldPoint (Input.mousePosition);
 
 					
-				transform.position = new Vector3(pos.x,pos.y,pos.y);
+				transform.position = new Vector3(pos.x,pos.y,pos.y)+offset;
 
 			}
 			if(Input.GetMouseButtonUp(0)){
@@ -340,31 +344,45 @@ public class Facility : MonoBehaviour
 
 #elif UNITY_ANDROID
 			if (Input.touchCount == 1) {
-				Vector2 touchpos = Camera.main.ScreenToWorldPoint (Input.GetTouch (0).position);
-				RaycastHit2D[] hits = Physics2D.RaycastAll (touchpos, Vector2.zero);
 
 
-				print ("touchcount 1");
+
+//				print ("touchcount 1");
 
 				if (Input.GetTouch (0).phase == TouchPhase.Began) {
 
+					Vector2 touchpos = Camera.main.ScreenToWorldPoint (Input.GetTouch (0).position);
+					RaycastHit2D[] hits = Physics2D.RaycastAll (touchpos, Vector2.zero);
+
 					print ("checking position");
 					foreach(RaycastHit2D hit in hits){
-						if(hit.collider.GetComponentInParent<Facility>().Equals(this)){
-							isTouching = true;
-							break;
+						if(hit.collider.tag.Equals("Objects")){
+							if(hit.collider.GetComponentInParent<Facility>().Equals(this)){
+								print ("enable drag");
+								isTouching = true;
+								break;
+							}
 						}
 					}
 
-					isTouching = false;
+//					isTouching = false;
 				
 
 				}
+
+
+
 				if(Input.GetTouch(0).phase == TouchPhase.Moved && isTouching){
-					print("dragging");
+					pos = Camera.main.ScreenToWorldPoint (Input.mousePosition);
+//					print("dragging");
 
 					transform.position = new Vector3(pos.x,pos.y,pos.y);
 				}
+
+				if(Input.GetTouch(0).phase == TouchPhase.Canceled || Input.GetTouch(0).phase == TouchPhase.Ended){
+					isTouching = false;
+				}
+
 
 
 			}

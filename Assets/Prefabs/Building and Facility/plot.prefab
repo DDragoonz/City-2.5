@@ -14,7 +14,7 @@ GameObject:
   - 33: {fileID: 3339988}
   - 23: {fileID: 2389278}
   - 114: {fileID: 11498062}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: plot
   m_TagString: Plot
   m_Icon: {fileID: 0}

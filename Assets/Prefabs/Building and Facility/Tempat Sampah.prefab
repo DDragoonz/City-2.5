@@ -13,9 +13,9 @@ GameObject:
   - 114: {fileID: 11410822}
   - 23: {fileID: 2331874}
   - 33: {fileID: 3362694}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: plot
-  m_TagString: Untagged
+  m_TagString: Plot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

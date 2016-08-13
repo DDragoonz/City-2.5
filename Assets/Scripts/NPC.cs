@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class NPC : MonoBehaviour {
+public class NPC : MonoBehaviour{
 
 
 	public Vector2 destination;
@@ -18,17 +18,17 @@ public class NPC : MonoBehaviour {
 	RaycastHit2D[] hits;
 	RaycastHit2D curHit;
 
-	NPCState state;
+	public NPCState state;
 
-	PolygonCollider2D poly;
+	PolygonCollider2D poly,targetPoly;
 	int startIdx,finishIdx;
 	float lastX,lastY;
-	float speed;
+	public float speed;
 	
 	// Use this for initialization
 	void Start () {
 
-		speed = Random.Range (0.3f, 0.7f);
+		//speed = Random.Range (0.3f, 0.7f);
 
 		anim = GetComponent<Animator> ();
 		state = NPCState.IDLE;
@@ -56,17 +56,21 @@ public class NPC : MonoBehaviour {
 		allDestination.Clear ();
 		
 		foreach (Facility f in FindObjectsOfType<Facility>()) {
+			if(!f.data.isNew()){
 			foreach(string s in allFacilityID){
 				if(f.data.facilityId.Equals(s)){
-					allDestination.Add( new Vector2( f.data.posX,f.data.posY));
+					allDestination.Add( new Vector2( f.transform.position.x,f.transform.position.y));
+					targetPoly = f.GetComponentInChildren<Plot>().GetComponent<PolygonCollider2D>();
 					break;
 				}
 			}
+			}
 		}
 
-
-		
-		destination = allDestination[Random.Range(0,allDestination.Count)];
+		if (allDestination.Count > 0) {
+			destination = allDestination [Random.Range (0, allDestination.Count)];
+		} else
+			Destroy (gameObject);
 	}
 
 
@@ -168,10 +172,11 @@ public class NPC : MonoBehaviour {
 		print ("let see where is my destination");
 		tempDestination = destination;
 
+
 		hits = Physics2D.LinecastAll (transform.position, destination);
 		
 		foreach (RaycastHit2D hit in hits) {
-			if((hit.collider.name.Equals("plot")|| hit.collider.name.Equals("Not Passable"))&& Vector2.Distance(hit.point,transform.position)>0.1f){
+			if((hit.collider.name.Equals("plot")|| hit.collider.tag.Equals("Path Blocker"))&& Vector2.Distance(hit.point,transform.position)>0.1f){
 //				print ("my path blocked by " + hit.collider.GetComponentInParent<Facility>().name);
 				curHit = hit;
 				poly = (PolygonCollider2D)hit.collider;
@@ -187,14 +192,25 @@ public class NPC : MonoBehaviour {
 		
 	}
 	IEnumerator checkDestination(){
-		if (Vector2.Distance (curHit.collider.bounds.center, destination) < 0.1f) {
-			print ("arrive in final destination! i want to take a break");
+
+
+
+		if (!curHit.collider || !targetPoly) {
+			print ("wtf");
 			state = NPCState.IDLE;
-		} else {
-			print ("should go around");
-			findNearestPoint();
-			state = NPCState.ENCIRCLE;
 		}
+		else {
+			if (Vector2.Distance (curHit.collider.bounds.center, destination) < 0.1f || curHit.collider.Equals (targetPoly) || 
+		    Vector2.Distance(transform.position,destination)<0.1f ) {
+
+				print ("arrive in final destination! i want to take a break");
+				state = NPCState.IDLE;
+			} else {
+				print ("should go around");
+				findNearestPoint ();
+				state = NPCState.ENCIRCLE;
+			}
+		} 
 
 		yield return null;
 	}
@@ -203,78 +219,81 @@ public class NPC : MonoBehaviour {
 
 		int icr = 1;
 
+		if (poly) {
 
-
-		if (startIdx > finishIdx) {
-
-
-
-			if (startIdx - finishIdx < poly.points.Length/2) {
-				icr = -1;
-			} else
-				icr = 1;
-
-		} else if ( startIdx < finishIdx){
+			if (startIdx > finishIdx) {
 
 
 
-			if( finishIdx - startIdx < poly.points.Length/2 ){
-				icr = 1;
+				if (startIdx - finishIdx < poly.points.Length / 2) {
+					icr = -1;
+				} else
+					icr = 1;
+
+			} else if (startIdx < finishIdx) {
+
+
+
+				if (finishIdx - startIdx < poly.points.Length / 2) {
+					icr = 1;
+				} else
+					icr = -1;
 			}
-			else icr = -1;
-		}
 
 
-		for (int i = startIdx; i!= finishIdx; ) {
+			for (int i = startIdx; i!= finishIdx;) {
 
 
 
 
 //			print ("encircling... "+i );
 
-			Vector2 newPos = new Vector2(poly.transform.position.x,poly.transform.position.y);
-			newPos+=poly.points[i]+poly.offset;
+				Vector2 newPos = new Vector2 (poly.transform.position.x, poly.transform.position.y);
+				newPos += poly.points [i] + poly.offset;
 
-			switchAnimationFacing(newPos);
+				switchAnimationFacing (newPos);
 
-			while(Vector2.Distance(transform.position,newPos )>0.1f){
+				while (Vector2.Distance(transform.position,newPos )>0.1f) {
 
 //				print (poly.transform.position);
 
-				transform.position = Vector2.MoveTowards(transform.position , newPos, Time.deltaTime*speed);
-				transform.position = new Vector3 (transform.position.x, transform.position.y, transform.position.y);
-				yield return null;
+					transform.position = Vector2.MoveTowards (transform.position, newPos, Time.deltaTime * speed);
+					transform.position = new Vector3 (transform.position.x, transform.position.y, transform.position.y);
+					yield return null;
+
+				}
+
+				i += icr;
+				if (i >= poly.points.Length)
+					i = 0;
+				if (i < 0)
+					i = poly.points.Length - 1;
 
 			}
 
-			i+=icr;
-			if(i >= poly.points.Length) i = 0;
-			if(i < 0)i = poly.points.Length-1;
 
-		}
-
-
-		switchAnimationFacing(new Vector2(poly.transform.position.x,poly.transform.position.y) + poly.points[finishIdx]+poly.offset);
+			switchAnimationFacing (new Vector2 (poly.transform.position.x, poly.transform.position.y) + poly.points [finishIdx] + poly.offset);
 		
-		while(Vector2.Distance(transform.position,
-		                       new Vector2(poly.transform.position.x,poly.transform.position.y) + poly.points[finishIdx]+poly.offset )>0.1f){
+			while (Vector2.Distance(transform.position,
+		                       new Vector2(poly.transform.position.x,poly.transform.position.y) + poly.points[finishIdx]+poly.offset )>0.1f) {
 			
-			//				print (poly.transform.position);
+				//				print (poly.transform.position);
 			
-			transform.position = Vector2.MoveTowards(transform.position , new Vector2(poly.transform.position.x,poly.transform.position.y)
-			                                         + poly.points[finishIdx]+poly.offset, Time.deltaTime*speed);
-			transform.position = new Vector3 (transform.position.x, transform.position.y, transform.position.y);
-			yield return null;
+				transform.position = Vector2.MoveTowards (transform.position, new Vector2 (poly.transform.position.x, poly.transform.position.y)
+					+ poly.points [finishIdx] + poly.offset, Time.deltaTime * speed);
+				transform.position = new Vector3 (transform.position.x, transform.position.y, transform.position.y);
+				yield return null;
 			
-		}
+			}
 
-		print("ok, let see where am i");
+		}
+		print ("ok, let see where am i");
 		state = NPCState.FINDPATH;
 
 	}
 
 
-	private enum NPCState{
+	public enum NPCState{
 		IDLE,
 		FINDPATH,
 		MOVING,

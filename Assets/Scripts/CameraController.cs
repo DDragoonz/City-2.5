@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System.Collections;
 using System.Collections.Generic;
@@ -39,25 +40,80 @@ public class CameraController : MonoBehaviour
 			lastpos = Input.mousePosition;
 
 			Vector2 pos = Camera.main.ScreenToWorldPoint (Input.mousePosition);
-			RaycastHit2D hit = Physics2D.Raycast (pos, Vector2.zero);
-			if (hit.collider == null) {
+//			RaycastHit2D hit = Physics2D.Raycast (pos, Vector2.zero);
+//			if (hit.collider == null) {
+//
+//				if (!EventSystem.current.IsPointerOverGameObject ()) {
+//					detailPanel.SetActive (false);
+//					Facility.unselectAll ();
+//					allowDrag = true;
+//				}
+//			} else if (hit.collider.tag.Equals ("Objects")) {
+//				
+//				if (hit.collider.GetComponent<Facility> ().data.isNew ()) {
+//					allowDrag = false;
+//				}
+//			}
+//			else {
+//				
+//				allowDrag = true;
+//			}
 
-				if (!EventSystem.current.IsPointerOverGameObject ()) {
-					detailPanel.SetActive (false);
-					Facility.unselectAll ();
-					allowDrag = true;
+			allowDrag = true;
+
+			short counter = 0;
+			bool selectingObject = false;
+
+			foreach(RaycastHit2D hit in Physics2D.RaycastAll (pos,Vector2.zero)){
+				counter++;
+				if(hit.collider.tag.Equals("Objects") ){
+					Facility f = hit.collider.GetComponent<Facility> ();
+
+					selectingObject = true;
+
+					if (f.data.isNew ()) {
+
+						allowDrag = false;
+					}
+					else {
+
+						Facility.unselectAll();
+						if(!f.isSelected && GameManager.state == State.REGION_GAMEPLAY){
+							print ("touching object");
+							detailPanel.GetComponent<DetailPanel> ().changeFacility (f);
+							f.isSelected = true;
+							//				GetComponent<SpriteRenderer> ().sprite = selected;
+							f.GetComponent<SpriteRenderer> ().sortingLayerName = "Selected";
+							foreach (Image i in detailPanel.GetComponentsInChildren<Image>()) {
+								if (i.name.Equals ("Icon")) {
+									i.sprite = f.normal;
+									break;
+								}
+							}
+							foreach (Text i in detailPanel.GetComponentsInChildren<Text>()) {
+								if (i.name.Equals ("Nama Objek")) {
+									i.text = name;
+									break;
+								}
+							}
+						}
+					}
+
 				}
-			} else if (hit.collider.tag.Equals ("Objects")) {
-				
-				if (hit.collider.GetComponent<Facility> ().data.isNew ()) {
-					allowDrag = false;
+				else {
+					if (!EventSystem.current.IsPointerOverGameObject () && !selectingObject) {
+						detailPanel.SetActive (false);
+						Facility.unselectAll ();
+					}
 				}
 			}
-			else {
-				
-				allowDrag = true;
+
+			if(counter == 0 && !EventSystem.current.IsPointerOverGameObject ()){ // not sure if this work in mobile input
+				print ("not hit anything");
+				detailPanel.SetActive (false);
+				Facility.unselectAll ();
 			}
-				
+
 
 
 		}
@@ -93,22 +149,44 @@ public class CameraController : MonoBehaviour
 			if (Input.touchCount == 1) {
 				if (Input.GetTouch (0).phase == TouchPhase.Began) {
 					Vector2 pos = Camera.main.ScreenToWorldPoint (Input.GetTouch (0).position);
-					RaycastHit2D hit = Physics2D.Raycast (pos, Vector2.zero);
-					if (hit.collider == null) {
+					allowDrag = true;
 
-						if (!isPointerOverUI ()) {
-							detailPanel.SetActive (false);
-							Facility.unselectAll ();
-							allowDrag = true;
+					short counter = 0;
+
+					foreach(RaycastHit2D hit in Physics2D.RaycastAll (pos,Vector2.zero)){
+						counter++;
+						if(hit.collider.tag.Equals("Objects")){
+							Facility f = hit.collider.GetComponent<Facility> ();
+							if (f.data.isNew ()) {
+
+								allowDrag = false;
+							}
+							else {
+								Facility.unselectAll();
+								if(!f.isSelected && GameManager.state == State.REGION_GAMEPLAY){
+									f.isSelected = true;
+									//				GetComponent<SpriteRenderer> ().sprite = selected;
+									GetComponent<SpriteRenderer> ().sortingLayerName = "Selected";
+									foreach (Image i in detailPanel.GetComponentsInChildren<Image>()) {
+										if (i.name.Equals ("Icon")) {
+											i.sprite = f.normal;
+											break;
+										}
+									}
+									foreach (Text i in detailPanel.GetComponentsInChildren<Text>()) {
+										if (i.name.Equals ("Nama Objek")) {
+											i.text = name;
+											break;
+										}
+									}
+								}
+							}
 						}
-					} else if (hit.collider.tag.Equals ("Objects")) {
-
-						if (hit.collider.GetComponent<Facility> ().data.isNew ()) {
-							allowDrag = false;
-						}
-					} else {
-
-						allowDrag = true;
+					}
+					if(counter == 0 && !EventSystem.current.IsPointerOverGameObject ()){ // not sure if this work in mobile input
+						print ("not hit anything");
+						detailPanel.SetActive (false);
+						Facility.unselectAll ();
 					}
 				}
 
