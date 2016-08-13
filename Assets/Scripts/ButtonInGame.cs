@@ -7,6 +7,7 @@ public class ButtonInGame : MonoBehaviour {
 
 	void Start(){
 		facility = gameObject.GetComponentInParent<Facility> ();
+		StartCoroutine (clickEvent ());
 	}
 
 //	void OnMouseOver(){
@@ -42,7 +43,7 @@ public class ButtonInGame : MonoBehaviour {
 
 //	}
 
-	void OnMouseDown(){
+	void clicked(){
 			switch(this.name){
 			case "Build ok": 
 				if (facility.finishPlacing ()) {
@@ -64,6 +65,33 @@ public class ButtonInGame : MonoBehaviour {
 				GameManager.state = State.REGION_GAMEPLAY;
 				break;
 			}	
+
+	}
+
+	IEnumerator clickEvent(){
+
+		while (GameManager.state == State.CHOOSE_FACILITY_PLOT) {
+
+#if UNITY_EDITOR
+
+			if(Input.GetMouseButtonDown(0)){
+				Vector2 pos = Camera.main.ScreenToWorldPoint (Input.mousePosition);
+
+				foreach(RaycastHit2D hit in Physics2D.RaycastAll(pos, Vector2.zero)){
+
+					if(hit.collider.gameObject.Equals(this.gameObject)){
+						clicked();
+						print("click");
+						break;
+					}
+
+				}
+
+			}
+#endif
+
+			yield return null;
+		}
 
 	}
 }

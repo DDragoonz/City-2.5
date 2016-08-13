@@ -13,9 +13,9 @@ GameObject:
   - 114: {fileID: 11492404}
   - 23: {fileID: 2300678}
   - 33: {fileID: 3309918}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: plot
-  m_TagString: Untagged
+  m_TagString: Plot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -210,11 +210,11 @@ MonoBehaviour:
   buildTime: 3000
   destroyTime: 2500
   repairtime: 2500
-  economicPointToUnlock: 100
+  economicPointToUnlock: 0
   happinessPointToUnlock: 0
-  polutionPointToUnlock: 100
-  crimePointToUnlock: 50
-  educationPointToUnlock: 100
+  polutionPointToUnlock: 0
+  crimePointToUnlock: 0
+  educationPointToUnlock: 0
   healthPointToUnlock: 0
   trafficPointToUnlock: 0
   facilityIdToUnlock: []

@@ -7,6 +7,7 @@ public class Plot : MonoBehaviour {
 	SpriteRenderer parentRenderer;
 	//	GameObject parent;
 	public bool validPlace;
+
 	Renderer r;
 
 	// Use this for initialization
@@ -14,9 +15,9 @@ public class Plot : MonoBehaviour {
 		r = GetComponent<Renderer> ();
 		facility = GetComponentInParent<Facility> ();
 		//		parent = facility.gameObject;
-		if (!facility.data.isNew ()) {
-			gameObject.layer = 0;
-		}
+//		if (!facility.data.isNew ()) {
+//			gameObject.layer = 0;
+//		}
 		parentRenderer = GetComponentInParent <SpriteRenderer> ();
 		validPlace = true;
 		generateMesh ();
@@ -28,7 +29,11 @@ public class Plot : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D collision){
 //		Debug.Log (collision.name);
-		if ( facility.data.isNew()){
+		if ( facility.data.isNew() && (collision.tag.Equals("Plot")
+		    || collision.tag.Equals("Plain") || collision.tag.Equals("Path Blocker"))){
+
+
+
 			parentRenderer.color = Color.red;	
 			r.material.color = Color.red;
 			validPlace = false;
@@ -37,7 +42,11 @@ public class Plot : MonoBehaviour {
 
 	void OnTriggerStay2D(Collider2D collision){
 
-		if (facility.data.isNew()){
+		if (facility.data.isNew() && (collision.tag.Equals("Plot")
+          || collision.tag.Equals("Plain") || collision.tag.Equals("Path Blocker"))){
+
+		
+
 			parentRenderer.color = Color.red;	
 			r.material.color = Color.red;
 			validPlace = false;
@@ -45,7 +54,8 @@ public class Plot : MonoBehaviour {
 	}
 
 	void OnTriggerExit2D(Collider2D collision){
-		if ( facility.data.isNew()) {
+		if ( facility.data.isNew() && (collision.tag.Equals("Plot")
+           || collision.tag.Equals("Plain") || collision.tag.Equals("Path Blocker"))){
 			parentRenderer.color = Color.white;
 			r.material.color = Color.white;
 			validPlace = true;
@@ -90,4 +100,7 @@ public class Plot : MonoBehaviour {
 
 		GetComponent<MeshFilter> ().mesh = mesh;
 	}
+
+
+
 }
